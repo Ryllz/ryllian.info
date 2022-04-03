@@ -1,0 +1,95 @@
+.header {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-navigation__link:hover {
+  text-shadow: 0px 0.6px 0.6px rgba(170, 173, 179, 0.808);
+  background-color: rgba(190, 225, 255, 0.05);
+}
+
+.mdl-layout__content {
+  background: #ffd89b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #19547b50, #ffd99b2a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #19547b3a, #ffd99b17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+
+.home-grid {
+  justify-content: center;
+}
+
+.avatar-main {
+  display: flex;
+  min-width: 200px;
+  max-width: 310px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #a7a7a733;
+  box-shadow: 0px 30px 40px -35px rgba(0, 0, 0, 1);
+}
+
+.intro-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  margin: auto;
+  border-radius:10px;
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: #71747e42;
+  box-shadow: 0px 3px 5px -4px
+}
+
+.intro-box h1 {
+  padding: 0.1vh;
+  font-size: 2.5vh;
+  font-weight: normal;
+  color: rgb(32, 32, 32);
+}
+
+.intro-box p {
+  font-size: 1.25vh;
+  width: 95%;
+  text-align: center;
+}
+
+.intro-box hr {
+  border-top: 2px groove rgba(180, 180, 180, 0.336);
+  margin: auto;
+  width: 80%;
+}
+
+.skill-ico {
+  display: flex;
+  max-width: 15%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-grid {
+}
+
+.mdl-card {
+  border-radius: 10px !important;
+}
+.mdl-card__title {
+  justify-content: center !important;
+}
+
+.mdl-card__title-text {
+  align-self: center !important;
+  text-shadow: 0px 0.5px 0.5px #29292962;
+  font-size: 21px !important;
+}
