@@ -42,6 +42,8 @@ function App() {
                 <Footer size="mini" className="footer">
                     <FooterSection type="left" logo="Copyright © Ryllian Zhang 2022">
                     </FooterSection>
+                    <FooterSection type="right" logo="Attributions">
+                    </FooterSection>
                 </Footer> 
             </Content>
         </Layout>

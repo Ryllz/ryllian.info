@@ -21,8 +21,8 @@
   background: linear-gradient(to right, #19547b3a, #ffd99b17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.home-grid {
-  justify-content: center;
+.mdl-card__supporting-text {
+  
 }
 
 .avatar-main {
@@ -30,42 +30,70 @@
   min-width: 200px;
   max-width: 310px;
   height: auto;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
   border-style: solid;
   border-width: thin;
   border-color: #a7a7a733;
-  box-shadow: 0px 30px 40px -35px rgba(0, 0, 0, 1);
+  box-shadow: 0px 30px 30px -30px rgba(0, 0, 0, 1);
 }
 
 .intro-box {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 90%;
   margin: auto;
-  border-radius:10px;
-  text-align: center;
   border-style: solid;
   border-width: thin;
-  border-color: #71747e42;
+  border-color: #71747e0c;
+  border-radius:15px;
+  text-align: center;
   box-shadow: 0px 3px 5px -4px
 }
 
-.intro-box h1 {
+.project-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 90%;
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: #71747e0c;
+  border-radius:15px;
+  text-align: center;
+  box-shadow: 0px 3px 5px -4px;
+}
+
+.about-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 90%;
+  padding: 1%;
+  margin: auto;
+  border-radius:15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #71747e0c;
+  border-radius:15px;
+  text-align: center;
+  box-shadow: 0px 3px 5px -4px;
+  justify-content: center;
+}
+
+img.bottom1 {
+  vertical-align: text-bottom;
+}
+
+.title {
   padding: 0.1vh;
   font-size: 2.5vh;
-  font-weight: bold;
+  text-align: center;
   color: rgb(32, 32, 32);
+  margin-bottom: 0.5% !important;
+  text-shadow: 0px 0px 2px #4b4b5a, 0 0 5px #ffffff;
 }
 
 .intro-box p {
   text-align: center;
-}
-
-.intro-box hr {
-  border-top: 2px groove rgba(180, 180, 180, 0.336);
-  margin: auto;
-  width: 80%;
 }
 
 .skill-ico {
@@ -74,15 +102,24 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  text-align: bottom;
+}
+
+hr.short1 {
+  border-top: 2px groove rgba(180, 180, 180, 0.336);
+  margin: auto;
+  width: 80%;
 }
 
 .skill-grid {
-  justify-content: center;
+
 }
 
 .mdl-card {
+  min-height: 100% !important;
   border-radius: 10px !important;
 }
+
 .mdl-card__title {
   justify-content: center !important;
 }
