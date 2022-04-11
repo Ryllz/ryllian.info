@@ -38,12 +38,14 @@ function App() {
             <Content>
                 <div className="page-content" />
                 <Main/>
+
+                <Footer size="mini" className="footer">
+                    <FooterSection type="left" logo="Copyright © Ryllian Zhang 2022">
+                    </FooterSection>
+                </Footer> 
             </Content>
-            <Footer size="mini" className="footer">
-                <FooterSection type="left" logo="Copyright © Ryllian Zhang 2022">
-            </FooterSection>
-            </Footer> 
         </Layout>
+
     </div>
   );
 }
