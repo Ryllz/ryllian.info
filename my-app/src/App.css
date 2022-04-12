@@ -21,8 +21,19 @@
   background: linear-gradient(to right, #19547b3a, #ffd99b17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.mdl-card__supporting-text {
-  
+.mdl-card {
+  min-height: 100% !important;
+  border-radius: 10px !important;
+}
+
+.mdl-card__title {
+  justify-content: center !important;
+}
+
+.mdl-card__title-text {
+  align-self: center !important;
+  text-shadow: 0px 0.5px 0.5px #29292962;
+  font-size: 21px !important;
 }
 
 .avatar-main {
@@ -43,6 +54,7 @@
 .intro-box {
   background-color: rgba(255, 255, 255, 0.5);
   width: 90%;
+  max-width: 105em;
   margin: auto;
   border-style: solid;
   border-width: thin;
@@ -55,6 +67,7 @@
 .project-box {
   background-color: rgba(255, 255, 255, 0.5);
   width: 90%;
+  max-width: 105em;
   margin: auto;
   margin-bottom: 5%;
   border-style: solid;
@@ -67,8 +80,9 @@
 
 .about-box {
   background-color: rgba(255, 255, 255, 0.5);
-  width: 90%;
-  padding: 1%;
+  width: 80%;
+  max-width: 100em;
+  padding: 1.5%;
   margin: auto;
   border-radius:15px;
   border-style: solid;
@@ -78,10 +92,6 @@
   text-align: center;
   box-shadow: 0px 3px 5px -4px;
   justify-content: center;
-}
-
-img.bottom1 {
-  vertical-align: text-bottom;
 }
 
 .title {
@@ -97,36 +107,24 @@ img.bottom1 {
   text-align: center;
 }
 
+.mdl-card__supporting-text {
+  padding-bottom: 0px !important;
+}
+
+.project-grid, .skill-grid {
+  justify-content: center;
+}
+
 .skill-ico {
   display: flex;
-  max-width: 15%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: bottom;
+  max-width: 17.5%;
+  margin: auto;
+  align-items: flex-end;
+  padding-bottom: 1vh;
 }
 
 hr.short1 {
   border-top: 2px groove rgba(180, 180, 180, 0.336);
   margin: auto;
   width: 80%;
-}
-
-.skill-grid {
-
-}
-
-.mdl-card {
-  min-height: 100% !important;
-  border-radius: 10px !important;
-}
-
-.mdl-card__title {
-  justify-content: center !important;
-}
-
-.mdl-card__title-text {
-  align-self: center !important;
-  text-shadow: 0px 0.5px 0.5px #29292962;
-  font-size: 21px !important;
 }

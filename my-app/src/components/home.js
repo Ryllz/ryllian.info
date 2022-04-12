@@ -21,11 +21,9 @@ class Home extends Component {
                                             background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(255,81,47,0.8) 100%) center / cover'}}>
                                             Robotics</CardTitle>
                                         <CardText>
-                                            <p>General mechatronics expertise in robotic systems and auxiliary modules.</p>
-                                            <CardActions border>
-                                            <img src={'./industrial-robot.png'} alt='robot_logo' className='skill-ico'></img>
-                                            </CardActions>
+                                            <p>General mechatronics expertise with robotic systems and auxiliary add-on modules.</p>
                                         </CardText>
+                                        <img src={'./industrial-robot.png'} alt='robot_logo' className='skill-ico'></img>
                                     </Card>
                                     </Cell>
                                 <Cell col={3} phone={12}>
@@ -35,10 +33,8 @@ class Home extends Component {
                                             Industrial Machinery</CardTitle>
                                         <CardText>
                                             <p>Experienced in the design of precision drilling/milling/plasma CNC platforms.</p>
-                                            <CardActions border>
-                                            <img src={'./machinery.png'} alt='machinery_logo' className='skill-ico'></img>
-                                            </CardActions>
                                         </CardText>
+                                        <img src={'./machinery.png'} alt='machinery_logo' className='skill-ico'></img>
                                     </Card>
                                 </Cell>
                                 <Cell col={3} phone={12}>
@@ -48,10 +44,8 @@ class Home extends Component {
                                             Fixture Design</CardTitle>
                                         <CardText>
                                             <p>Skilled in design of precision fixtures for use in both production & test environments.</p>
-                                            <CardActions border>
-                                            <img src={'./cogwheel.png'} alt='cogwheel_logo' className='skill-ico'></img>
-                                            </CardActions>
                                         </CardText>
+                                        <img src={'./cogwheel.png'} alt='cogwheel_logo' className='skill-ico'></img>
                                     </Card>
                                 </Cell>
                                 <Cell col={3} phone={12}>
@@ -60,11 +54,9 @@ class Home extends Component {
                                         background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(24,90,157,0.9) 100%) center / cover'}}>
                                             Process Automation</CardTitle>
                                         <CardText>
-                                            <p>Driving continuous improvement across production and R&D processes.</p>
-                                            <CardActions border>
-                                            <img src={'./automation.png'} alt='automation_logo' className='skill-ico'></img>
-                                            </CardActions>
+                                            <div class="column-expander"><p>Driving continuous improvement across production and R&D processes.</p></div>
                                         </CardText>
+                                        <img src={'./automation.png'} alt='automation_logo' className='skill-ico'></img>
                                     </Card>
                                 </Cell>
                             </Grid>
@@ -76,7 +68,7 @@ class Home extends Component {
                     <Grid className="about-grid">
                         <div className='about-box'>
                             <Cell col={12} align='middle'>
-                                <div id='aboutme'></div>
+                                <div className='aboutme'></div>
                                 <p1> I'm an avid learner that pursued a career in engineering, to satisfy my natural curiosity in how things work.
                                 <br></br> Although my background is in mechanical engineering, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
                                 </p1>
@@ -91,9 +83,9 @@ class Home extends Component {
                     <Grid className="project-grid">
                         <Cell col={3} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Electric Bike</CardTitle>
+                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>CNC Mill</CardTitle>
                             <CardText>
-                                "asdasd"
+                                Beginnings of my journey in designing CNC platforms
                             </CardText>
                             <CardActions border>
                             <Button colored>Details</Button>
@@ -104,7 +96,7 @@ class Home extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Engagement Ring Box</CardTitle>
                             <CardText>
-                                "asdasd2"
+                                A culmination of CNC milling, laser cutting and cheating (3D printing)
                             </CardText>
                             <CardActions border>
                             <Button colored>Details</Button>
@@ -113,9 +105,9 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>4kW BMX E-Bike</CardTitle>
+                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>BMX E-Bike</CardTitle>
                             <CardText>
-                                "asdasd2"
+                                "Just because you can, doesn't mean you should"
                             </CardText>
                             <CardActions border>
                             <Button colored>Details</Button>
@@ -130,5 +122,4 @@ class Home extends Component {
             )
         }
 }
-
 export default Home;
