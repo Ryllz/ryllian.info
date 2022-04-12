@@ -8,6 +8,7 @@ class Home extends Component {
                     <Cell col={12}>
                         <img src={'./rzselfie.png'} alt='avatar' className='avatar-main'></img>
                     </Cell>
+                    <br></br>
                     <h1 className="title">Senior Hardware Engineer</h1>
                     <Grid className="home-grid">
                     <hr class="short1"/>
@@ -75,10 +76,12 @@ class Home extends Component {
                     <Grid className="about-grid">
                         <div className='about-box'>
                             <Cell col={12} align='middle'>
-                                <p1> I'm an avid learner that pursued a career in engineering due to a natural curiosity in how things work.<br></br> Although my background is in mechanical engineering, I pride myself in a diverse range of interests and hobbies.
+                                <div id='aboutme'></div>
+                                <p1> I'm an avid learner that pursued a career in engineering, to satisfy my natural curiosity in how things work.
+                                <br></br> Although my background is in mechanical engineering, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
                                 </p1>
                                 <br></br>
-                                <p2><br></br>...for example, building this website to build some skills in git and frontend/backend web development.</p2>&#128516;
+                                <p2><br></br>...for example, building this website to build some basic skills in git and frontend/backend web development.</p2>&#128516;
                             </Cell>
                         </div>
                     </Grid>
@@ -88,7 +91,7 @@ class Home extends Component {
                     <Grid className="project-grid">
                         <Cell col={3} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Electric Bike</CardTitle>
                             <CardText>
                                 "asdasd"
                             </CardText>
@@ -99,7 +102,18 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Engagement Ring Box</CardTitle>
+                            <CardText>
+                                "asdasd2"
+                            </CardText>
+                            <CardActions border>
+                            <Button colored>Details</Button>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={3} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>4kW BMX E-Bike</CardTitle>
                             <CardText>
                                 "asdasd2"
                             </CardText>
