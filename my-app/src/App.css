@@ -123,6 +123,11 @@
   margin-bottom: 0;
 }
 
+.tab-content {
+  margin: auto;
+  max-width: 80em;
+}
+
 .title {
   padding: 0.1vh;
   font-size: 3vh;
