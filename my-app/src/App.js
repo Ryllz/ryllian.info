@@ -45,9 +45,7 @@ function App() {
                     </FooterSection>
                 </Footer> 
             </Content>
-
         </Layout>
-
     </div>
   );
 }

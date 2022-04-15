@@ -16,9 +16,21 @@
 }
 
 .mdl-layout__content {
-  background: #ffd89b;  /* fallback for old browsers */
+  background: #3a3a3a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #19547b50, #ffd99b2a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #19547b3a, #ffd99b17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-card__supporting-text {
+
+}
+
+.mdl-mini-footer {
+
+}
+
+.mdl-tabs {
+  background: #19547b3a; 
 }
 
 .mdl-card {
@@ -28,6 +40,7 @@
 
 .mdl-card__title {
   justify-content: center !important;
+  height: 5em !important;
 }
 
 .mdl-card__title-text {
@@ -66,16 +79,17 @@
 
 .project-box {
   background-color: rgba(255, 255, 255, 0.5);
-  width: 90%;
-  max-width: 105em;
+  width: 80%;
+  max-width: 100em;
   margin: auto;
   margin-bottom: 5%;
   border-style: solid;
   border-width: thin;
   border-color: #71747e0c;
-  border-radius:15px;
+  border-radius: 15px;
   text-align: center;
   box-shadow: 0px 3px 5px -4px;
+  padding: 8px;
 }
 
 .about-box {
@@ -94,6 +108,10 @@
   justify-content: center;
 }
 
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
 .title {
   padding: 0.1vh;
   font-size: 3vh;
@@ -105,14 +123,6 @@
 
 .intro-box p {
   text-align: center;
-}
-
-.mdl-card__supporting-text {
-  padding-bottom: 0px !important;
-}
-
-.mdl-mini-footer {
-  
 }
 
 .project-grid, .skill-grid {
