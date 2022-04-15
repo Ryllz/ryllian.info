@@ -1,0 +1,31 @@
+“Just because you can, doesn’t mean you should” 
+
+This project makes no sense from a performance perspective - I built it because I wanted a BMX bike that went really really fast, and it delivered on that end in spades.
+
+The build consisted of the following key components:
+- Adaptto Mini-E controller and BMS (4kW nominal output)
+- 4x 8Ah 4s1p LiPo packs (59.2V nominal, 67.2V max, 30C continuous/40C burst)
+- MXUS v3 3kW “Turbo” motor, 4T winding
+
+The really cool feature of the Adaptto controller is also the integrated charging feature, where the windings in the hub motor itself are used as part of the buck/boost circuit.
+
+Highlights
+From calculations based on wheel size, motor winding turns and battery pack voltage, I was expecting a top speed of ~60km/h. In practice my courage topped out at 50km/h and that’s where I limited it :) 
+
+The peak current output capability of 180A was never tested, which is a shame…
+
+
+Downsides
+- The bike had rear v-brakes only, so while getting to 50km/h was a blip (less than ~3s), slowing down was a much bigger deal.
+
+- Complete lack of suspension made it impractical when riding bumpy roads or hopping curbs are necessary.
+
+- Questionable torque arm design which could cause fatigue failure in the rear frame member it’s bracing against, due to the cyclic loading of heavy acceleration and regen braking.
+
+Lessons Learned
+- I massively overestimated my bike-riding capabilities when I set out to build this.
+
+- Straight spokes somehow work?? Defies load calculations (even assuming a few degrees deflection, it shouldn’t work for the forces involved - but yet it does).
+
+- Circuit breaker ratings can be very finicky to choose.
+
