@@ -10,21 +10,35 @@ class Projects extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                <div><h1>test</h1></div>
+                <div>
+                    <h1>test</h1>
+                </div>
             )
-        }
+        } else if(this.state.activeTab === 1){
+            return(
+                <div><h1>test2</h1></div>
+            )
+        } else if(this.state.activeTab === 2){
+            return(
+                <div><h1>test2</h1></div>
+            )
+        } else if(this.state.activeTab === 3){
+            return(
+                <div><h1>test2</h1></div>
+            )
+        }        
     }
 
     render() {
         return(
-            <div className="category-tabs">
+            <div className="project-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Mechanical</Tab>
-                    <Tab>Electronics</Tab>
-                    <Tab>Software</Tab>
-                    <Tab>Management</Tab>
+                    <Tab>CNC Wood Router</Tab>
+                    <Tab>Electric BMX Bike</Tab>
+                    <Tab>Engagement Ring Box</Tab>
+                    <Tab>Electric Foil Board</Tab>
                 </Tabs>
-                <section className="projects-grid">
+                <section className="project-section">
                 {this.toggleCategories()}
                 </section>
             </div>

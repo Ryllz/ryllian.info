@@ -16,17 +16,27 @@
 }
 
 .mdl-layout__content {
+  flex: 1 0 auto;
   background: #3a3a3a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #19547b50, #ffd99b2a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #19547b3a, #ffd99b17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.mdl-card__supporting-text {
-
+.mdl-layout-spacer {
+  display: flex;
+  flex-direction: column;
 }
 
-.mdl-mini-footer {
+.mdl-card__supporting-text {
+}
 
+.name-link {
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.footer {
+  bottom: 0 !important;
 }
 
 .mdl-tabs {
@@ -34,6 +44,7 @@
 }
 
 .mdl-card {
+  min-width: 25%!important;
   min-height: 100% !important;
   border-radius: 10px !important;
 }
@@ -127,6 +138,11 @@
 
 .project-grid, .skill-grid {
   justify-content: center;
+}
+
+.project-section {
+  display: flex;
+  min-height: 100vh
 }
 
 .skill-ico {

@@ -9,7 +9,7 @@ function App() {
     <div className="navbar">
         <Layout>
             <Header waterfall className="header">
-                <HeaderRow title="Ryllian Zhang" href="/">
+                <HeaderRow title={<Link to="/" className='name-link'>Ryllian Zhang</Link>}>
                     <Textfield
                         value=""
                         onChange={() => {}}
