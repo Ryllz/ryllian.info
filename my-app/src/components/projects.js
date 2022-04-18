@@ -49,6 +49,14 @@ class Projects extends Component {
                 <li>Tons of battery related things (how to build packs from various battery types, battery management systems, charging profiles etc.).&nbsp;</li>
                 </ul>
                 <h2>Build Photos</h2>
+                <div class="gallery-card-image mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                
+                </div>
+                <div class="mdl-card__actions">
+                    <span class="demo-card-image__filename">Image.jpg</span>
+                </div>
+                </div>
                 <h2>System Diagram</h2>
                 <p>&nbsp;</p>
                 </div>

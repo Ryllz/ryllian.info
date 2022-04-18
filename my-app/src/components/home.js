@@ -80,7 +80,7 @@ class Home extends Component {
                 <Grid className='project-grid'>
                     <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(./ebike_1.png) center / contain no-repeat'}}>CNC Wood Router</CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                         <CardText>
                             Beginnings of my journey in designing CNC platforms
                         </CardText>
@@ -91,7 +91,7 @@ class Home extends Component {
                     </Cell>
                     <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Engagement Ring Box</CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                         <CardText>
                             A culmination of CNC milling, laser cutting and cheating (3D printing)
                         </CardText>
@@ -102,7 +102,7 @@ class Home extends Component {
                     </Cell>
                     <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Electric BMX Bike</CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                         <CardText>
                             "Just because you can, doesn't mean you should"
                         </CardText>
@@ -113,7 +113,7 @@ class Home extends Component {
                     </Cell>
                     <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Electric Foil Board</CardTitle>
+                        <CardTitle expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>Electric Foil Board</h3></CardTitle>
                         <CardText>
                             Work in progress!
                         </CardText>
