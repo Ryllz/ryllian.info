@@ -51,7 +51,6 @@
 
 .mdl-card__title {
   justify-content: center !important;
-  height: 5em !important;
 }
 
 .mdl-card__title-text {
@@ -162,4 +161,5 @@ hr.short1 {
   border-top: 2px groove rgba(180, 180, 180, 0.336);
   margin: auto;
   width: 80%;
+  padding-bottom: 0.5em;
 }

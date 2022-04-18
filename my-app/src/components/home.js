@@ -15,7 +15,7 @@ class Home extends Component {
                     <Grid className="skill-grid">
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5vh',
+                                <CardTitle style={{color: '#fff', height: '5em',
                                     background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(255,81,47,0.8) 100%) center / cover'}}>
                                     Robotics</CardTitle>
                                 <CardText>
@@ -26,7 +26,7 @@ class Home extends Component {
                             </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5vh', 
+                                <CardTitle style={{color: '#fff', height: '5em', 
                                 background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(12,79,5,0.7) 100%) center / cover'}}>
                                     Industrial Machinery</CardTitle>
                                 <CardText>
@@ -37,7 +37,7 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5vh', 
+                                <CardTitle style={{color: '#fff', height: '5em', 
                                 background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(55,59,68,0.9) 100%) center / cover'}}>
                                     Fixture Design</CardTitle>
                                 <CardText>
@@ -48,7 +48,7 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5vh', 
+                                <CardTitle style={{color: '#fff', height: '5em', 
                                 background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(24,90,157,0.9) 100%) center / cover'}}>
                                     Process Automation</CardTitle>
                                 <CardText>
@@ -78,9 +78,9 @@ class Home extends Component {
             <hr class="short1"/>
             <div className='project-box'>
                 <Grid className='project-grid'>
-                    <Cell col={3} phone={12} align='middle'>
+                    <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>CNC Wood Router</CardTitle>
+                        <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(./ebike_1.png) center / contain no-repeat'}}>CNC Wood Router</CardTitle>
                         <CardText>
                             Beginnings of my journey in designing CNC platforms
                         </CardText>
@@ -89,7 +89,7 @@ class Home extends Component {
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={3} phone={12} align='middle'>
+                    <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Engagement Ring Box</CardTitle>
                         <CardText>
@@ -100,7 +100,7 @@ class Home extends Component {
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={3} phone={12} align='middle'>
+                    <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Electric BMX Bike</CardTitle>
                         <CardText>
@@ -111,7 +111,7 @@ class Home extends Component {
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={3} phone={12} align='middle'>
+                    <Cell col={6} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Electric Foil Board</CardTitle>
                         <CardText>
