@@ -10,8 +10,8 @@ class Projects extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                <div>
-                    <h1>test</h1>
+                <div className="tab-content">
+                    <h1>My first CNC wood router</h1>
                 </div>
             )
         } else if(this.state.activeTab === 1){
@@ -21,15 +21,19 @@ class Projects extends Component {
                 <h1 className='quote-title'><em>&ldquo;Just because you can, doesn&rsquo;t mean you should&rdquo; </em></h1>
                 </div>
                 <div>
-                <div>This project makes no sense from a performance perspective - I built it because I wanted a BMX bike that went really really fast, and it delivered on that end in spades.&nbsp;</div>
+                <div>This project makes no sense from a performance perspective - I built it because I wanted a BMX bike that went really really fast, and it delivered on that end in spades.
+                    <br></br>
+                    That said, I've yet to build a more aesthetically pleasing enclosure for the electronics (that doesn't use scrap copper sheet and recycled hose clamps).
+                </div>
                 <br></br>
                 <div>The build consisted of the following key components:</div>
                 <ul>
-                <li>Adaptto Mini-E controller and BMS (4kW nominal output)</li>
-                <li>4x 8Ah 4s1p LiPo packs (59.2V nominal, 67.2V max, 30C continuous/40C burst)</li>
-                <li>MXUS v3 3kW &ldquo;Turbo&rdquo; motor, 4T winding</li>
+                <li><b>Adaptto Mini-E controller and BMS (4kW nominal output)</b></li>
+                <li><b>4x 8Ah 4s1p LiPo packs (59.2V nominal, 67.2V max, 30C continuous/40C burst)</b></li>
+                <li><b>MXUS v3 3kW &ldquo;Turbo&rdquo; motor, 4T winding</b></li>
                 </ul>
-                <div>The really cool feature of the Adaptto controller is also the integrated charging feature, where the windings in the hub motor itself are used as part of the buck/boost circuit.</div>
+                <div>The really cool feature of the Adaptto controller is also the integrated charging feature, 
+                    where the windings in the hub motor itself are used as part of the buck/boost circuit.</div>
                 <br></br>
                 <h2>Highlights</h2>
                 <div>From calculations based on wheel size, motor winding turns and battery pack voltage, I was expecting a top speed of ~60km/h. In practice my courage topped out at 50km/h.</div>
@@ -43,15 +47,23 @@ class Projects extends Component {
                 </ul>
                 <h2>Lessons Learned</h2>
                 <ul>
-                <li>I massively overestimated my bike-riding capabilities when I set out to build this.</li>
-                <li>Straight spokes somehow work?? Defies load calculations (even assuming a few degrees deflection, it shouldn&rsquo;t work for the forces involved - but yet it does).</li>
-                <li>Circuit breaker ratings can be very finicky to choose.</li>
-                <li>Tons of battery related things (how to build packs from various battery types, battery management systems, charging profiles etc.).&nbsp;</li>
+                <li><b>I massively overestimated my bike-riding capabilities when I set out to build this.</b><br></br>
+                In other words, always remember spec things to the lowest common denominator...
+                </li>
+                <li><b>Simple ideas are worth trying first.</b><br></br>
+                In this particular case, due to the large hub motor size, I struggled to find a suitable rim given the desired spoke angle I'd calculated (based on normal spoke gauges). 
+                Poking around on Google, I'd initially found some other people using 0 degree spoke angles but with extra thick gauge spokes;
+                 I quickly dismissed this as being too 'simple', plus it also felt wrong defying the spoke load calculation assumptions on all loads being purely tension). 
+                 I then spent the longest time fussing around with custom rim designs, before caving in and giving this a go first - and it was a bittersweet experience when I found it worked great!</li>
+                <li><b>Always have a healthy distrust for specs.</b><br></br>
+                Specifically, cheap circuit breakers definitely have a lot of wiggle room with respect to their specified trip current curves.
+                </li>
+                <li><b>Tons of battery related things</b><br></br>
+                 How to build packs from LiPo and Li-ion batteries, battery management systems, charging profiles etc.</li>
                 </ul>
                 <h2>Build Photos</h2>
                 <div class="gallery-card-image mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand">
-                
+                <div class="mdl-card__title mdl-card--expand">             
                 </div>
                 <div class="mdl-card__actions">
                     <span class="demo-card-image__filename">Image.jpg</span>
