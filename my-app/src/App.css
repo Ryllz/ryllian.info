@@ -28,23 +28,21 @@
 }
 
 .gallery-card-image.mdl-card {
-  width: 30vw;
-  width: 30vh;
+  width: 100%;
   min-width: 400px;
   min-height: 400px;
-  height: 256px;
+  height: 30vh;
 }
 
 .gallery-card-image > .mdl-card__actions {
-  height: 52px;
+  height: auto;
   padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(51, 51, 51, 0.8);
 }
 
-.demo-card-image__filename {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+.card-image-caption {
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
 }
 
 .name-link {
@@ -191,8 +189,12 @@ hr.short1 {
 }
 
 .project-title {
-  background-color: #464646a2;
-  box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.753);
+  background-color: #464646ec;
+  box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.8);
   padding: 0.5em;
   text-shadow: 0px 0px 4px #000000;
+}
+
+#diagram {
+  height: 50vh;
 }

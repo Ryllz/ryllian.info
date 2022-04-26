@@ -74,7 +74,7 @@ class Home extends Component {
                 </Cell>
             </Grid>
             </div>
-            <h1 className='title'>Project Highlights</h1>
+            <h1 className='title'>Personal Projects</h1>
             <hr class="short1"/>
             <div className='project-box'>
                 <Grid className='project-grid'>
@@ -82,7 +82,7 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                         <CardText>
-                            Beginnings of my journey in designing CNC platforms
+                            Prologue chapter of my journey in designing CNC platforms
                         </CardText>
                         <CardActions border>
                         <Button colored>Details</Button>
@@ -104,7 +104,18 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                         <CardText>
-                            "Just because you can, doesn't mean you should"
+                            Who needs suspension and comfort anyways?
+                        </CardText>
+                        <CardActions border>
+                        <Button colored>Details</Button>
+                        </CardActions>
+                        </Card>
+                    </Cell>
+                    <Cell col={6} phone={12} align='middle'>
+                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
+                        <CardText>
+                            Expanding my horizons into more software related things
                         </CardText>
                         <CardActions border>
                         <Button colored>Details</Button>
