@@ -15,18 +15,18 @@ class Home extends Component {
                     <Grid className="skill-grid">
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5em',
+                                <CardTitle style={{color: '#fff', height: '4em',
                                     background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(255,81,47,0.8) 100%) center / cover'}}>
                                     Robotics</CardTitle>
                                 <CardText>
-                                    <p class='no-bottom-margin'>General mechatronics expertise with robotic systems and auxiliary add-on modules.</p>
+                                    <p class='no-bottom-margin'>General mechatronics expertise with robotic systems and auxiliary modules.</p>
                                 </CardText>
                                 <img src={'./industrial-robot.png'} alt='robot_logo' className='skill-ico'></img>
                             </Card>
                             </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5em', 
+                                <CardTitle style={{color: '#fff', height: '4em', 
                                 background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(12,79,5,0.7) 100%) center / cover'}}>
                                     Industrial Machinery</CardTitle>
                                 <CardText>
@@ -37,7 +37,7 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5em', 
+                                <CardTitle style={{color: '#fff', height: '4em', 
                                 background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(55,59,68,0.9) 100%) center / cover'}}>
                                     Fixture Design</CardTitle>
                                 <CardText>
@@ -48,7 +48,7 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '5em', 
+                                <CardTitle style={{color: '#fff', height: '4em', 
                                 background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(24,90,157,0.9) 100%) center / cover'}}>
                                     Process Automation</CardTitle>
                                 <CardText>
@@ -78,9 +78,9 @@ class Home extends Component {
             <hr class="short1"/>
             <div className='project-box'>
                 <Grid className='project-grid'>
-                    <Cell col={6} phone={12} align='middle'>
+                    <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./cnc_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                         <CardText>
                             Prologue chapter of my journey in designing CNC platforms
                         </CardText>
@@ -89,9 +89,9 @@ class Home extends Component {
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={6} phone={12} align='middle'>
+                    <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./ringbox_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                         <CardText>
                             A culmination of CNC milling, laser cutting and cheating (3D printing)
                         </CardText>
@@ -100,31 +100,31 @@ class Home extends Component {
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={6} phone={12} align='middle'>
+                    <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                         <CardText>
-                            Who needs suspension and comfort anyways?
+                            Who needs suspension, brakes and gears anyways?
                         </CardText>
                         <CardActions border>
                         <Button colored>Details</Button>
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={6} phone={12} align='middle'>
+                    <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./this_page.png) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
                         <CardText>
-                            Expanding my horizons into more software related things
+                            Expanding my horizons with more web-based software skills
                         </CardText>
                         <CardActions border>
                         <Button colored>Details</Button>
                         </CardActions>
                         </Card>
                     </Cell>
-                    <Cell col={6} phone={12} align='middle'>
+                    <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>Electric Foil Board</h3></CardTitle>
+                        <CardTitle expand style={{height: '20em', color: '#fff', background: ''}}><h3 class='project-title'>Laser Turret</h3></CardTitle>
                         <CardText>
                             Work in progress!
                         </CardText>
