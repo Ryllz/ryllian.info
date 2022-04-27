@@ -93,7 +93,7 @@
 }
 
 .intro-box {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   width: 90%;
   max-width: 105em;
   margin: auto;
@@ -106,7 +106,7 @@
 }
 
 .project-box {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   width: 80%;
   max-width: 100em;
   margin: auto;
@@ -121,12 +121,11 @@
 }
 
 .about-box {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   width: 80%;
   max-width: 100em;
   padding: 1.5%;
   margin: auto;
-  border-radius:15px;
   border-style: solid;
   border-width: thin;
   border-color: #71747e0c;
@@ -201,5 +200,9 @@ hr.short1 {
 }
 
 #diagram {
-  height: 50vh;
+  height: 100vh;
+}
+
+#photo-card{
+  height: 50vh !important;
 }

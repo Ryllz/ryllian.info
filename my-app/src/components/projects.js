@@ -31,15 +31,70 @@ class Projects extends Component {
                     <hr/>
                     <Grid className='project-photo-grid'>
                         <Cell col={4} phone={12} align='middle'>
-                            <div class="gallery-card-image mdl-card mdl-shadow--2dp">
-                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./) center / cover'}} >             
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{height: '30vh', background: 'url(./vfd_wiring_1.jpg) center / cover'}} >             
                                 </div>
                                 <div class="mdl-card__actions">
-                                    <span class="card-image-caption">The VFD in all it's un-safe glory</span>
+                                    <span class="card-image-caption">The VFD in the process of figuring out setup and wiring (AliExpress instructions weren't great)</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{height: '30vh', background: 'url(./frame_setup_1.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">Extrusion frame with mild steel angle braces</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./cnc_base_setup.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">All components wired for testing, MDF base boards being mounted</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./cnc_z.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">Z-axis, assembled from AliExpress roller/rail/ballscrew and welded scrap angles</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./cnc_firstcut.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">First engraving job, so much dust...</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./cnc_me.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">Me fresh out of university, assembling the control box; can almost smell the leather jacket and deodorant through the photo...</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="photo-card">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./cnc_endresults.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">Wedding gift portrait engraving, ~0.7x1.0m in size (my dainty hand for scale in the corner)</span>
                                 </div>
                             </div>
                         </Cell>
                     </Grid>
+                    <br></br>
                 </div>
             )
         } else if(this.state.activeTab === 1){
@@ -172,12 +227,8 @@ class Projects extends Component {
                     </Grid>
                     <h3>System Diagram</h3>
                     <hr/>
-                        <Cell col={12} align='middle'>
-                            <div class="gallery-card-image mdl-card mdl-shadow--2dp" id="diagram">
-                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./ebike_system_diagram.jpg) center / cover'}}></div>
-                            </div>
-                        </Cell>
-                    <p><i>Courtesy of Adappto - http://adaptto.com/</i><br></br></p>
+                        <img src="./ebike_system_diagram.jpg" alt="Adaptto system diagram" width="100%" height="auto"></img>
+                    <p><i>Diagram courtesy of Adappto - http://adaptto.com/</i><br></br></p>
                 </div>
             )
         } else if(this.state.activeTab === 2){
@@ -187,11 +238,11 @@ class Projects extends Component {
                     <hr/>
                     <p>I took a simple objective (get a box for an engagement ring) and turned it into a project. 
                         Originally, I'd given myself a week to complete the design and build - unfortunately due to breaking some long-reach tooling I'd depended on, I had to re-design on the fly with what was available.</p>
-                    <p>After drawing out the box exterior in record time, I figured why not challenge myself with an unnecessarily complicated mechanism which raises the ring on a platform as the lid is opened, for that extra wow factor.</p>
+                    <p>After drawing out the box exterior in record time, I figured why not challenge myself by adding an unnecessarily complicated mechanism which raises the ring on a platform as the lid is opened, for that extra wow factor.</p>
                     <p>A few things which I experimented with on this particular project was:</p>
                     <ol>
                         <li><strong>Altering machining path in CAM to create a subtle sunburst patterned surface finish (who said engineers are all about function?).</strong></li>
-                        <li><strong>3D printing gear profiles on a Stratasys Objet24.</strong></li>
+                        <li><strong>3D printing custom gear profiles.</strong></li>
                         <li><strong>Laser-cutting of exotic materials (Paua shell inlay panels).</strong></li>
                     </ol>
                     <p>The cosmetic "sunburst" milling paths worked surprisingly well. 
@@ -213,7 +264,9 @@ class Projects extends Component {
                     </ul>
                     <h3>Equipment Used</h3>
                     <hr/>
-
+                    <li><strong>Datron Neo 3-Axis CNC mill</strong></li>
+                    <li><strong>Trotec Speedy400 laser cutter</strong></li>
+                    <li><strong>Stratasys Objet24 resin jet 3D printer</strong></li>
                     <h3>Lessons Learned</h3>
                     <hr/>
                     <ul>
@@ -254,7 +307,20 @@ class Projects extends Component {
 
                 </div>
             )
-        }        
+        } else if(this.state.activeTab === 4){
+            return(
+                <div>
+
+                </div>
+            )
+        } else if(this.state.activeTab === 5){
+            return(
+                <div>
+
+                </div>
+            )
+        }     
+            
     }
 
     render() {
@@ -265,6 +331,7 @@ class Projects extends Component {
                     <Tab>Electric BMX Bike</Tab>
                     <Tab>Engagement Ring Box</Tab>
                     <Tab>This Webpage</Tab>
+                    <Tab>Mead Brewing</Tab>
                     <Tab>Laser Turret</Tab>
                 </Tabs>
                 <section className="project-section">
