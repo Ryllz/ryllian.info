@@ -4,7 +4,8 @@ import Resume from './resume';
 import Blog from './blog';
 import Projects from './projects';
 import Contact from './contact';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
+
 
 const Main = () => (
     <Routes>
@@ -13,6 +14,8 @@ const Main = () => (
         <Route path="/projects" element={<Projects />}/>
         <Route path="/resume" element={<Resume />}/>
         <Route path="/contact" element={<Contact />}/>
+        <Route exact path='/projects/cnc' element={<Projects activeTab={'1'}/>}/>
+        <Route exact path='/projects/ringbox' element={<Projects activeTab={'3'}/>}/>
     </Routes>
 )
 

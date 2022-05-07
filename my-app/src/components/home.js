@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Button, Cell, Card, CardTitle, CardText, CardActions } from 'react-mdl';
+import { Grid, Button, Cell, Card, CardTitle, CardText, CardActions, IconButton, CardMenu } from 'react-mdl';
 import ParticlesBg from 'particles-bg'
+
 class Home extends Component {
     render() {
         return(
@@ -67,7 +68,7 @@ class Home extends Component {
                 <Cell col={12} align='middle'>
                     <div className='aboutme'></div>
                     <p1> I'm an avid learner that pursued a career in engineering to satisfy my natural curiosity in how things work.
-                    <br></br> Although my foundation is in the mechanical specialization, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
+                    <br></br> Although my experience is primarily in the mechanical specialization, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
                     </p1>
                     <br></br>
                     <p2><br></br>...for example, building this website to learn some basic skills in git and frontend/backend web development </p2>&#128516;
@@ -85,18 +86,21 @@ class Home extends Component {
                             Prologue chapter of my journey in designing CNC platforms
                         </CardText>
                         <CardActions border>
-                        <Button colored>Details</Button>
+                        <Button colored href="./projects/cnc">Details</Button>
                         </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./ringbox_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                         <CardText>
-                            A culmination of CNC milling, laser cutting and cheating (3D printing)
+                            A mix of design, CAM + CNC milling, laser cutting and 3D printing
                         </CardText>
                         <CardActions border>
-                        <Button colored>Details</Button>
+                        <Button colored href="./projects/ringbox">Details</Button>
                         </CardActions>
                         </Card>
                     </Cell>
@@ -115,7 +119,7 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(./this_page.png) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
                         <CardText>
-                            Expanding my horizons with more web-based software skills
+                            Getting more familiar with web-based programming skills
                         </CardText>
                         <CardActions border>
                         <Button colored>Details</Button>
@@ -126,7 +130,7 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(./bottle_design1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Mead Brewing</h3></CardTitle>
                         <CardText>
-                            Much much harder than expected, for unexpected reasons
+                            The flavours of process control, repeatability and reproducibility
                         </CardText>
                         <CardActions border>
                         <Button colored>Details</Button>
