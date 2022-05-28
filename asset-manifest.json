@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ryllian.info/static/css/main.7278cdb8.css",
+    "main.js": "/ryllian.info/static/js/main.5c30617e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ryllian.info/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/ryllian.info/index.html",
+    "main.7278cdb8.css.map": "/ryllian.info/static/css/main.7278cdb8.css.map",
+    "main.5c30617e.js.map": "/ryllian.info/static/js/main.5c30617e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ryllian.info/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7278cdb8.css",
+    "static/js/main.5c30617e.js"
+  ]
+}
