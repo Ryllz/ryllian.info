@@ -67,7 +67,7 @@ class Home extends Component {
             <Grid className="about-grid">
                 <Cell col={12} align='middle'>
                     <div className='aboutme'></div>
-                    <p1> I'm an avid learner that pursued a career in engineering to satisfy my natural curiosity in how things work.
+                    <p1> I'm an avid learner who pursued a career in engineering to satisfy my natural curiosity in how things work.
                     <br></br> Although my experience is primarily in the mechanical specialization, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
                     </p1>
                     <br></br>
@@ -86,11 +86,8 @@ class Home extends Component {
                             Prologue chapter of my journey in designing CNC platforms
                         </CardText>
                         <CardActions border>
-                        <Button colored href="./projects/cnc">Details</Button>
+                        <Button colored href="/projects/cnc_wood_router">Details</Button>
                         </CardActions>
-                            <CardMenu style={{color: '#fff'}}>
-                                <IconButton name="share" />
-                            </CardMenu>
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
@@ -100,7 +97,7 @@ class Home extends Component {
                             A mix of design, CAM + CNC milling, laser cutting and 3D printing
                         </CardText>
                         <CardActions border>
-                        <Button colored href="./projects/ringbox">Details</Button>
+                        <Button colored href="/projects/engagement_ring_box">Details</Button>
                         </CardActions>
                         </Card>
                     </Cell>
@@ -111,7 +108,7 @@ class Home extends Component {
                             Who needs suspension, brakes and gears anyways?
                         </CardText>
                         <CardActions border>
-                        <Button colored>Details</Button>
+                        <Button colored  href="/projects/electric_bmx_bike">Details</Button>
                         </CardActions>
                         </Card>
                     </Cell>

@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class engagement_ring_box extends Component {
         render() {
             return(
-                <div>
+                <div className="tab-content">
                     <h1>Romance wrapped in a DFM Crash Course</h1>
                     <hr/>
                     <p>I took a simple objective (get a box for an engagement ring) and turned it into a project. 
@@ -53,7 +53,7 @@ class engagement_ring_box extends Component {
                     <Grid className='project-photo-grid'>
                         <Cell col={4} phone={12} align='middle'>
                             <div class="gallery-card-image mdl-card mdl-shadow--2dp">
-                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./ringbox_2.jpg) center / cover'}} >             
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(/ringbox_2.jpg) center / cover'}} >             
                                 </div>
                                 <div class="mdl-card__actions">
                                     <span class="card-image-caption">Lid opened with ring platform raised</span>
@@ -62,7 +62,7 @@ class engagement_ring_box extends Component {
                         </Cell>
                         <Cell col={4} phone={12} align='middle'>
                             <div class="gallery-card-image mdl-card mdl-shadow--2dp">
-                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(./ringbox_1.jpg) center / cover'}} >             
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(/ringbox_1.jpg) center / cover'}} >             
                                 </div>
                                 <div class="mdl-card__actions">
                                     <span class="card-image-caption">Lid closed, raised edge on opening side</span>
@@ -75,5 +75,5 @@ class engagement_ring_box extends Component {
         }
 }
 
-export default Blog;
+export default engagement_ring_box;
 
