@@ -139,7 +139,7 @@ class Home extends Component {
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(./laser_turret1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Laser Turret</h3></CardTitle>
+                        <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(./laser_turret.jpg) center / cover no-repeat'}}><h3 class='project-title'>Laser Turret</h3></CardTitle>
                         <CardText>
                             Work in progress!
                         </CardText>
