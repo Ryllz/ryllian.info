@@ -234,8 +234,7 @@ class Projects extends Component {
         } else if(this.state.activeTab === 2){
             return(
                 <div className="tab-content">
-                    <div id="test">test</div>
-                    {this.loadHTML()}
+                    
                 </div>
             )
         } else if(this.state.activeTab === 3){
@@ -256,13 +255,13 @@ class Projects extends Component {
 
                 </div>
             )
-        }     
-            
+        }
     }
 
     render() {
         return(
             <div className="project-tabs">
+                <script src="InsertHTML.js"></script>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>CNC Wood Router</Tab>
                     <Tab>Electric BMX Bike</Tab>
@@ -277,12 +276,7 @@ class Projects extends Component {
             </div>
         )
     }
-    
-    loadHTML(){
-        fetch('./engagement_ring_box.html')
-        .then(response=> response.text())
-        .then(text=> document.getElementById('test').innerHTML = text);
-      }
+
 }
 
 export default Projects;

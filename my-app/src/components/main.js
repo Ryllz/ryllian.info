@@ -14,8 +14,7 @@ const Main = () => (
         <Route path="/projects" element={<Projects />}/>
         <Route path="/resume" element={<Resume />}/>
         <Route path="/contact" element={<Contact />}/>
-        <Route exact path='/projects/cnc' element={<Projects activeTab={'1'}/>}/>
-        <Route exact path='/projects/ringbox' element={<Projects activeTab={'3'}/>}/>
+        <Route path="/projects/engagement_ring_box" element={<engagement_ring_box />}/>
     </Routes>
 )
 
