@@ -8,6 +8,10 @@ function App() {
   return (
     <div className="navbar">
         <Layout>
+        <script src=
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+                    </script>
+                    <script src="./loadHTML.js"></script>
             <Header waterfall className="header">
                 <HeaderRow title={<Link to="/" className='name-link'>Ryllian Zhang</Link>}>
                     <Textfield

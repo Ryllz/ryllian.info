@@ -233,8 +233,9 @@ class Projects extends Component {
             )
         } else if(this.state.activeTab === 2){
             return(
-                <div className="tab-content" id="test">
-                    
+                <div className="tab-content">
+                    <div id="test">test</div>
+                    {this.loadHTML()}
                 </div>
             )
         } else if(this.state.activeTab === 3){
@@ -276,6 +277,12 @@ class Projects extends Component {
             </div>
         )
     }
+    
+    loadHTML(){
+        fetch('./engagement_ring_box.html')
+        .then(response=> response.text())
+        .then(text=> document.getElementById('test').innerHTML = text);
+      }
 }
 
 export default Projects;
