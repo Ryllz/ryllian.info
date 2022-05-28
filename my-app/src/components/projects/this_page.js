@@ -14,7 +14,7 @@ class this_page extends Component {
 
                     </p>
 
-                    <h2>Lessons Learned</span></h2>
+                    <h2>Lessons Learned</h2>
                     <ul>
                     <li><strong>Interoperability is a nightmare</strong></li>
                     Making sure all design elements are supported by common browsers (and resize correctly), is something that I think most people take for granted when visitng websites.
