@@ -8,7 +8,7 @@ class Home extends Component {
         return(
             <div style={{width:'100%', margin: 'auto'}}>
                 <Cell col={12}>
-                    <img src={'./rzselfie.png'} alt='avatar' className='avatar-main'></img>
+                    <img src={'/rzselfie.png'} alt='avatar' className='avatar-main'></img>
                 </Cell>
                 <br></br>
                 <h1 className="title">Senior Hardware Engineer</h1>
@@ -84,7 +84,7 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/cnc_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                         <CardText>
-                            Prologue chapter of my journey in designing CNC platforms
+                            First chapter of my journey in designing CNC platforms
                         </CardText>
                         <CardActions border>
                         <Link to="/projects/cnc_wood_router"><Button colored>Details</Button></Link>

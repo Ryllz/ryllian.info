@@ -21,6 +21,24 @@
   background: linear-gradient(to right, #19547b3a, #ffd99b17); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.gradient-background {
+  background: linear-gradient(289deg,#003973,#6b6b838f,#E5E5BE);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .mdl-layout-spacer {
   display: flex;
   flex-direction: column;
@@ -41,7 +59,6 @@
 
 .card-image-caption {
   color: rgb(255, 255, 255);
-  font-size: 0.8em;
 }
 
 .name-link {
@@ -59,8 +76,8 @@
 
 .mdl-card {
   min-width: 25%!important;
-  min-height: 100% !important;
   border-radius: 10px !important;
+  min-height: 100% !important;
 }
 
 .mdl-card__title {
@@ -75,6 +92,18 @@
 
 .mdl-card__supporting-text {
   width: auto !important;
+  color: rgba(0,0,0, 0.8) !important;
+}
+
+#edu-heading {
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+  font-size: large;
+  font-weight:bolder;
+}
+
+.sub-heading {
+  color: #003973;
 }
 
 .avatar-main {
@@ -92,10 +121,51 @@
   box-shadow: 0px 30px 30px -30px rgba(0, 0, 0, 1);
 }
 
+#resume-entry {
+  border-radius: 15px;
+  margin-right: 1em;
+  margin-top: 1em; 
+  margin-bottom: 1em;
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 1);
+  text-align: left;
+  min-height: auto !important;
+}
+
+.resume-grid {
+  background-color: rgba(255, 255, 255, 0.5);
+  width:90%;
+  max-width: 120em;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+  border-color: #71747e0c;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 3px 5px -4px;
+  justify-content: center;
+}
+
+.avatar-resume {
+  display: flex;
+  min-width: 280px;
+  max-width: 280px;
+  height: auto;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #a7a7a733;
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 1);
+}
+
 .intro-box {
   background-color: rgba(255, 255, 255, 0.4);
-  width: 83.5%;
-  max-width: 105em;
+  width: 80%;
+  max-width: 100em;
   margin: auto;
   border-style: solid;
   border-width: thin;
@@ -107,8 +177,10 @@
 
 .project-box {
   background-color: rgba(255, 255, 255, 1.0);
-  max-width: 82%;
-  margin: auto;
+  width: 80%;
+  max-width: 100em;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5%;
   border-style: solid;
   border-width: thin;
@@ -116,14 +188,14 @@
   border-radius: 15px;
   text-align: center;
   box-shadow: 0px 3px 5px -4px;
-  padding: 8px;
 }
 
 .about-box {
   background-color: rgba(255, 255, 255, 1.0);
   width:80%;
-  max-width: 105em;
-  padding: 1.5%;
+  max-width: 100em;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   margin: auto;
   border-style: solid;
   border-width: thin;
@@ -154,7 +226,7 @@
 
 .title {
   padding: 0.1vh;
-  font-size: 3.5vh;
+  font-size: 2em;
   text-align: center;
   color: rgb(32, 32, 32);
   margin-bottom: 0.5% !important;
@@ -176,8 +248,11 @@
 
 .skill-ico {
   display: flex;
-  max-width: 17.5%;
-  margin: auto;
+  min-width: 38px;
+  max-width: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
   align-items: flex-end;
   padding-bottom: 1vh;
 }
@@ -187,6 +262,10 @@ hr.short1 {
   margin: auto;
   width: 80%;
   padding-bottom: 0.5em;
+}
+
+hr.low-margin {
+  margin: 0.5em;
 }
 
 .project-title {
