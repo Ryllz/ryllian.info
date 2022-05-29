@@ -17,8 +17,8 @@ class Home extends Component {
                     <Grid className="skill-grid">
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '4em',
-                                    background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(255,81,47,0.8) 100%) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '3.5em',
+                                    background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(200, 80, 40, 0.8) 100%) center / cover'}}>
                                     Robotics</CardTitle>
                                 <CardText>
                                     <p class='no-bottom-margin'>General mechatronics expertise with robotic systems and auxiliary modules.</p>
@@ -28,8 +28,8 @@ class Home extends Component {
                             </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '4em', 
-                                background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(12,79,5,0.7) 100%) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '3.5em', 
+                                background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(12, 60, 5, 0.7) 100%) center / cover'}}>
                                     Industrial Machinery</CardTitle>
                                 <CardText>
                                     <p class='no-bottom-margin'>Experienced in the design of precision drilling/milling/plasma CNC platforms.</p>
@@ -39,8 +39,8 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '4em', 
-                                background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(55,59,68,0.9) 100%) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '3.5em', 
+                                background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(55, 59, 68, 0.9) 100%) center / cover'}}>
                                     Fixture Design</CardTitle>
                                 <CardText>
                                     <p class='no-bottom-margin'>Skilled in design of precision fixtures for use in both production & test environments.</p>
@@ -50,8 +50,8 @@ class Home extends Component {
                         </Cell>
                         <Cell col={3} phone={12}>
                             <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '4em', 
-                                background: 'radial-gradient(circle, rgba(67,206,162,0.6) -140%, rgba(24,90,157,0.9) 100%) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '3.5em', 
+                                background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(24, 90, 157, 0.9) 100%) center / cover'}}>
                                     Process Automation</CardTitle>
                                 <CardText>
                                     <p class='no-bottom-margin'>Driving continuous improvement across production and R&D processes.</p>
