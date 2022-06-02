@@ -5,9 +5,9 @@ class engagement_ring_box extends Component {
         render() {
             return(
                 <div className="tab-content">
-                    <h1>Romance wrapped in a DFM Crash Course</h1>
+                    <h1>(Romantic?) DFM self-punishment</h1>
                     <hr/>
-                    <p>I took a simple objective (get a box for an engagement ring) and turned it into a project. 
+                    <p>For this project I took a simple task (get a box for an engagement ring) and really "blew it up". 
                         Originally, I'd given myself a week to complete the design and build - unfortunately due to breaking some long-reach tooling I'd depended on, I had to re-design on the fly with what was available.</p>
                     <p>After drawing out the box exterior in record time, I figured why not challenge myself by adding an unnecessarily complicated mechanism which raises the ring on a platform as the lid is opened, for that extra wow factor.</p>
                     <p>A few things which I experimented with on this particular project was:</p>
