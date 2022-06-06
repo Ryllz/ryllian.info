@@ -98,7 +98,7 @@ class Resume extends Component {
                                 <CardText>
                                     <table style={{width: '100%', 'padding-left': '1em', 'padding-right': '1em'}}>
                                         <tr><th>CAD</th></tr>
-                                        <tr><Chip>SolidWorks</Chip><Chip>Siemens NX</Chip><Chip>AutoCAD LT & Electrical</Chip></tr>
+                                        <tr><Chip>SolidWorks</Chip><Chip>Siemens NX</Chip><Chip>AutoCAD LT</Chip><Chip>AutoCAD Electrical</Chip></tr>
                         
                                         <tr><th>CAM</th></tr>
                                         <tr><Chip>edgeCAM</Chip><Chip>NX CAM</Chip><Chip>Fusion360</Chip><Chip>MasterCAM</Chip></tr>
@@ -111,6 +111,9 @@ class Resume extends Component {
                     
                                         <tr><th>Software IDEs</th></tr>
                                         <tr><Chip>VS Code</Chip><Chip>PyCharm</Chip></tr>
+
+                                        <tr><th>Productivity</th></tr>
+                                        <tr><Chip>Confluence</Chip><Chip>Adobe Photoshop</Chip><Chip>GIMP</Chip></tr>
                                     </table>
                                 </CardText>
                             </Card>
