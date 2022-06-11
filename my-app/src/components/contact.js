@@ -29,7 +29,7 @@ class Contact extends Component {
                       </div>
                     </Cell>
                     <Cell col={8}>
-                        <Card shadow={0} style={{width: 'auto', height: '100%',  margin:'auto', background: 'url(/location.jpg) center / cover'}}>
+                        <Card shadow={0} style={{width: 'auto', height: '100%', 'min-height': '35vh', 'max-height': '672px',  margin:'auto', background: 'url(/location.jpg) center / cover'}}>
                             <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                               <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
                                 Currently around...
@@ -38,7 +38,7 @@ class Contact extends Component {
                         </Card>
                     </Cell>
                     <Cell col={12}>
-                    <Card shadow={0} style={{width: '100%', height: '1360px', background: 'url(/rangitoto_sunrise.jpg) center / cover', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '100%', height: '60vh', 'max-height': '1300px', background: 'url(/rangitoto_sunrise.jpg)', 'background-position': 'center center', 'background-size': 'cover', 'background-repeat': 'no-repeat', margin: 'auto'}}>
                     <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                         <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
                             ...probably here to be specific :)
