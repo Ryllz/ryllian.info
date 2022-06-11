@@ -9,7 +9,7 @@ class Resume extends Component {
                 <br></br>
                 <Grid className="resume-grid">
                     <Cell col={4} tablet={12} phone={12}>
-                        <img src={'/rzselfie2.png'} alt='so hired' className='avatar-resume'></img>
+                        <img src={'/rzselfie2.png'} alt='so hireable' className='avatar-resume'></img>
                         <div>
                             <h1 className="title">Ryllian Zhang</h1>
                             <table class="center">
@@ -247,6 +247,68 @@ class Resume extends Component {
                     </Cell>
                 </Grid>
                 <br></br>
+                <style>
+                    {`@media print {
+                        .avatar-resume{  
+                            width: 2cm;
+                            height: auto;
+                            margin-top: 0;
+                            margin-left: auto;
+                            margin-right: auto;
+                            border-radius: 15px;
+                            border-style: solid;
+                            border-width: thin;
+                            border-color: #a7a7a733;
+                            box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 1);
+                        }
+                        #edu-heading {
+                            margin-top: 0cm !important;
+                            margin-bottom: 0cm !important;
+                            font-size: medium;
+                            font-weight: bolder;
+                        }
+                        #cert-heading {
+                            margin-top: 0cm !important;
+                            margin-bottom: 0cm !important;
+                            font-size: small;
+                            font-weight: bolder;
+                        }
+                        #exp-heading {
+                            margin-top: 0cm !important;
+                            margin-bottom: 0cm !important;
+                            line-height: 1.5em;
+                            font-size: large;
+                            font-weight: bolder;
+                        }
+                        .ico-resume {
+                            width: 1cm;
+                            padding: 0.5em;
+                            margin-right: 0.5em;
+                        }
+                        .print-banner {
+                            display: none;
+                        }
+                        .ico-resume-mini {
+                            width: 0.5cm;
+                            margin:0.2em;
+                            padding-right: 0.5em;
+                        }
+                        .ico-resume-interests {
+                            max-width: 1cm !important;
+                            padding: 0.2cm;
+                        }
+                        hr.low-margin {
+                            margin: 0.05cm;
+                        }
+                        .mdl-card__title-text{
+                            color: rgb(255, 255, 255) !important;
+                        }
+                        a[href]:after {
+                            content: none !important;
+                        }
+                    }`
+                    }
+                </style>
             </div>
         )
     }

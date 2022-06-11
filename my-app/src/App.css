@@ -151,23 +151,22 @@
 }
 
 #edu-heading {
-  margin-top: 0em !important;
-  margin-bottom: 0em !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   font-size: medium;
   font-weight: bolder;
 }
 
 #cert-heading {
-
-  margin-top: 0em !important;
-  margin-bottom: 0em !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   font-size: small;
   font-weight: bolder;
 }
 
 #exp-heading {
-  margin-top: 0em !important;
-  margin-bottom: 0em !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   line-height: 1.5em;
   font-size: large;
   font-weight: bolder;
@@ -396,5 +395,3 @@ hr.low-margin {
 #photo-card{
   height: 50vh !important;
 }
-
-

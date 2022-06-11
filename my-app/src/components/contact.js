@@ -30,7 +30,7 @@ class Contact extends Component {
                     </Cell>
                     <Cell col={8}>
                         <Card shadow={0} style={{width: 'auto', height: '100%', 'min-height': '35vh', 'max-height': '672px',  margin:'auto', background: 'url(/location.jpg) center / cover'}}>
-                            <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
+                            <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.5)'}}>
                               <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
                                 Currently around...
                                 </span>
@@ -39,7 +39,7 @@ class Contact extends Component {
                     </Cell>
                     <Cell col={12}>
                     <Card shadow={0} style={{width: '100%', height: '60vh', 'max-height': '1300px', background: 'url(/rangitoto_sunrise.jpg)', 'background-position': 'center center', 'background-size': 'cover', 'background-repeat': 'no-repeat', margin: 'auto'}}>
-                    <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
+                    <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.5)'}}>
                         <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
                             ...probably here to be specific :)
                         </span>
