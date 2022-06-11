@@ -76,7 +76,7 @@ class Home extends Component {
                 </Cell>
             </Grid>
             </div>
-            <h1 className='title'>Personal Projects</h1>
+            <h1 className='title'>Personal Project Highlights</h1>
             <hr class="short1"/>
             <div className='project-box'>
                 <Grid className='project-grid'>
@@ -113,36 +113,45 @@ class Home extends Component {
                         </CardActions>
                         </Card>
                     </Cell>
+                </Grid>
+            </div>
+            <h1 className='title'>Blog Highlights</h1>
+            <hr class="short1"/>
+            <div className='blog-box'>
+                <Grid className='project-grid'>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/this_page.png) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
                         <CardText>
-                            Getting more familiar with web-based programming skills
+                            <h4>Size scales of design</h4>
+                            lorem ipsum
                         </CardText>
                         <CardActions border>
-                        <Link to="/projects/this_page"><Button colored>Details</Button></Link>
+                        <Link to="/projects/cnc_wood_router"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/bottle_design1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Mead Brewing</h3></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
                         <CardText>
-                            The flavours of process control, repeatability and reproducibility
+                            <h4>Right to repair</h4>
+                            lorem ipsum
                         </CardText>
                         <CardActions border>
-                        <Link to="/projects/mead_brewing"><Button colored>Details</Button></Link>
+                        <Link to="/projects/engagement_ring_box"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/laser_turret.jpg) center / cover no-repeat'}}><h3 class='project-title'>Laser Turret</h3></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/.png) center / cover no-repeat'}}></CardTitle>
                         <CardText>
-                            Work in progress!
+                            <h4>Form and function</h4>
+                            lorem ipsum
                         </CardText>
                         <CardActions border>
-                        <Link to="/projects/laser_turret"><Button colored>Details</Button></Link>
+                        <Link to="/projects/electric_bmx_bike"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>

@@ -5,16 +5,16 @@ class engagement_ring_box extends Component {
         render() {
             return(
                 <div className="tab-content">
-                    <h1>(Romantic?) DFM self-punishment</h1>
+                    <h1>Crash course in DFM and form vs. function</h1>
                     <hr/>
-                    <p>For this project I took a simple task (get a box for an engagement ring) and really "blew it up". 
-                        Originally, I'd given myself a week to complete the design and build - unfortunately due to breaking some long-reach tooling I'd depended on, I had to re-design on the fly with what was available.</p>
+                    <p>For this project I took a simple task (get a box for an engagement ring) and turned it into an engineering project. </p>
+                     <p>Originally, I'd given myself a week to complete the design and build - unfortunately due to breaking some long-reach tooling I'd depended on, I had to re-design on the fly with what was available.</p>
                     <p>After drawing out the box exterior in record time, I figured why not challenge myself by adding an unnecessarily complicated mechanism which raises the ring on a platform as the lid is opened, for that extra wow factor.</p>
                     <p>A few things which I experimented with on this particular project was:</p>
                     <ol>
-                        <li><strong>Altering machining path in CAM to create a subtle sunburst patterned surface finish (who said engineers are all about function?).</strong></li>
-                        <li><strong>3D printing custom gear profiles.</strong></li>
-                        <li><strong>Laser-cutting of exotic materials (Paua shell inlay panels).</strong></li>
+                    <strong><li>Altering machining path in CAM to create a subtle sunburst patterned surface finish (who said engineers are all about function?).</li></strong>
+                    <strong><li>3D printing custom gear profiles.</li></strong>
+                    <strong><li>Laser-cutting of exotic materials (Paua shell inlay panels).</li></strong>
                     </ol>
                     <p>The cosmetic "sunburst" milling paths worked surprisingly well. 
                         I started this project in Fusion360 as it was free for hobbyist use (not anymore though I think?). 
@@ -66,6 +66,33 @@ class engagement_ring_box extends Component {
                                 </div>
                                 <div class="mdl-card__actions">
                                     <span class="card-image-caption">Lid closed, raised edge on opening side</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(/ringbox_4.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">Test fit with a keychain ring</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(/ringbox_3.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">Billet aluminum frame, with "ejection" holes for the wooden inlay panels for serviceability</span>
+                                </div>
+                            </div>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <div class="gallery-card-image mdl-card mdl-shadow--2dp">
+                                <div class="mdl-card__title mdl-card--expand" style={{background: 'url(/ringbox_5.jpg) center / cover'}} >             
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <span class="card-image-caption">The secret sauce inside - POM guide plates for the raise/open mechanism, geared cross-shaft, and aluminum lid supports</span>
                                 </div>
                             </div>
                         </Cell>
