@@ -129,7 +129,7 @@ class Home extends Component {
                             Why some design choices only work at scale.
                         </CardText>
                         <CardActions border>
-                        <Link to="/projects/cnc_wood_router"><Button colored>Read</Button></Link>
+                        <Link to="/blog"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>
@@ -141,7 +141,7 @@ class Home extends Component {
                             Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability.
                         </CardText>
                         <CardActions border>
-                        <Link to="/projects/engagement_ring_box"><Button colored>Read</Button></Link>
+                        <Link to="/blog"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>
@@ -153,7 +153,7 @@ class Home extends Component {
                             And why Square Enix sequels continue to break my childhood heart...
                         </CardText>
                         <CardActions border>
-                        <Link to="/projects/electric_bmx_bike"><Button colored>Read</Button></Link>
+                        <Link to="/blog"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>

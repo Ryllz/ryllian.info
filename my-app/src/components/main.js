@@ -14,7 +14,7 @@ import ThisPage from './projects/this_page';
 
 import Attributions from './attributions';
 
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 
 
 const Main = () => (
