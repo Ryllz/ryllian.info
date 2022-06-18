@@ -5,7 +5,7 @@ import ReactToPrint from "react-to-print";
 class Resume extends Component {
     render() {
         return(
-            <div className="resume">
+            <div className="resume" id='root'>
                 <br></br>
                 <Grid className="resume-grid">
                     <Cell col={4} tablet={12} phone={12}>
@@ -52,7 +52,7 @@ class Resume extends Component {
                                         <img src={'/ibm.png'} alt='IBM' className='ico-resume-edu'></img>
                                     </Cell>
                                     <Cell col={10}>
-                                        <h4 id='cert-heading'>IBM Full Stack Software Developer</h4>
+                                        <h4 id='cert-heading'>IBM Full Stack Cloud Developer</h4>
                                     </Cell>
                                     <Cell col={12}  style={{margin: '0'}}>
                                         <hr class='low-margin'></hr>

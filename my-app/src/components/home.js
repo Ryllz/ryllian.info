@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 class Home extends Component {
     render() {
         return(
-            <div style={{width:'100%', margin: 'auto'}}>
+            <div style={{width:'100%', margin: 'auto'}} id="root">
                 <Cell col={12}>
                     <img src={'/rzselfie.png'} alt='avatar' className='avatar-main'></img>
                 </Cell>
@@ -61,7 +61,7 @@ class Home extends Component {
                         </Cell>
                     </Grid>
                 </div>
-    
+            <br></br>
             <h1 className='title'>About Me</h1>
             <hr class="short1"/> 
             <div className='about-box'>
@@ -76,6 +76,7 @@ class Home extends Component {
                 </Cell>
             </Grid>
             </div>
+            <br></br>
             <h1 className='title'>Personal Project Highlights</h1>
             <hr class="short1"/>
             <div className='project-box'>
@@ -115,16 +116,17 @@ class Home extends Component {
                     </Cell>
                 </Grid>
             </div>
-            <h1 className='title'>Blog Highlights</h1>
+            <br></br>
+            <h1 className='title'>Blog Highlights (WIP)</h1>
             <hr class="short1"/>
             <div className='blog-box'>
                 <Grid className='project-grid'>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
                         <CardText>
-                            <h4>Size scales of design</h4>
-                            lorem ipsum
+                            <h4>Impact of scale on design choices</h4>
+                            Why some design choices only work at scale.
                         </CardText>
                         <CardActions border>
                         <Link to="/projects/cnc_wood_router"><Button colored>Read</Button></Link>
@@ -133,10 +135,10 @@ class Home extends Component {
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
                         <CardText>
                             <h4>Right to repair</h4>
-                            lorem ipsum
+                            Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability.
                         </CardText>
                         <CardActions border>
                         <Link to="/projects/engagement_ring_box"><Button colored>Read</Button></Link>
@@ -145,10 +147,10 @@ class Home extends Component {
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
                         <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/.png) center / cover no-repeat'}}></CardTitle>
+                        <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.png) center / cover no-repeat'}}></CardTitle>
                         <CardText>
-                            <h4>Form and function</h4>
-                            lorem ipsum
+                            <h4>The elegance of a simple storyline</h4>
+                            And why Square Enix sequels continue to break my childhood heart...
                         </CardText>
                         <CardActions border>
                         <Link to="/projects/electric_bmx_bike"><Button colored>Read</Button></Link>

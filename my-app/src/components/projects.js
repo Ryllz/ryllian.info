@@ -6,7 +6,7 @@ class Projects extends Component {
     render() {
         return(
             <div className="project-tabs">
-            <h2 style={{textAlign:'center'}}>2014 - 2022 </h2>
+            <h2 style={{textAlign:'center'}}>Personal (WIP)</h2>
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
@@ -79,6 +79,81 @@ class Projects extends Component {
                         <br></br>
                     </Grid>
                 </div>
+                <h2 style={{textAlign:'center'}}>Professional (WIP)</h2>
+                <hr class="short1"/>
+                <div className='project-box'>
+                    <Grid className='project-grid'>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/) center / cover no-repeat'}}><h3 class='project-title'>Roller Stamper</h3></CardTitle>
+                            <CardText>
+                                Material hardness, and lessons in high force timing belt applications
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/cnc_wood_router"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/) center / cover no-repeat'}}><h3 class='project-title'>Hydraulic System Design</h3></CardTitle>
+                            <CardText>
+                                The familiarity of pneumatics, but less forgiving
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/engagement_ring_box"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/) center / cover no-repeat'}}><h3 class='project-title'>Heavy Plate Conveyors</h3></CardTitle>
+                            <CardText>
+                                Overcoming operator safety challenges
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/engagement_ring_box"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/) center / cover no-repeat'}}><h3 class='project-title'>Container-scale Milling</h3></CardTitle>
+                            <CardText>
+                                High stakes CAM programming
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/engagement_ring_box"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/) center / cover no-repeat'}}><h3 class='project-title'>Plate Unloading Robot</h3></CardTitle>
+                            <CardText>
+                                Industrial low-profile system for picking and palletizing plasma cut steel parts with 5 axis of motion
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/engagement_ring_box"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/) center / cover no-repeat'}}><h3 class='project-title'>6 Axis Robot Calibration</h3></CardTitle>
+                            <CardText>
+                                Breakdown of the Euler angles used in many systems
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/engagement_ring_box"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <br></br>
+                    </Grid>
+                </div>
+                <br></br>
+                <br></br>
             </div>
         )
     }
