@@ -12,7 +12,7 @@ import MeadBrewing from './projects/mead_brewing';
 import LaserTurret from './projects/laser_turret';
 import ThisPage from './projects/this_page';
 
-import Attributions from './attributions';
+import RollerStamper from './projects/roller_stamper';
 
 import { Routes, Route, HashRouter } from 'react-router-dom';
 
@@ -31,8 +31,7 @@ const Main = () => (
         <Route path="/projects/mead_brewing" element={<MeadBrewing />}/>
         <Route path="/projects/laser_turret" element={<LaserTurret />}/>
         <Route path="/projects/this_page" element={<ThisPage />}/>
-
-        <Route path="/attributions" element={<Attributions />}/>
+        <Route path="/projects/roller_stamper" element={<RollerStamper />}/>
     </Routes>
 )
 

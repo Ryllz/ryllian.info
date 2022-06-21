@@ -14,7 +14,7 @@ class this_page extends Component {
                     <p>Why did I choose an IBM course? The content seemed like a good mix of stuff I was already semi-familiar with and new topics, which is always a comfortable learning environment.</p>
                     <p>Admittedly, I also park my car in an IBM building and all the IBM branded signage everywhere must've worked their subliminal magic...</p>
                     <br></br>
-                    <p>Despite finishing the course, I still wouldn't qualify myself as a full stack dev. <br></br>
+                    <p>Despite finishing the course, I still wouldn't qualify myself as a full stack dev though (hence not listing JS, Kubernetes, Docker etc. on my skills list). <br></br>
                         This is due to a mixture of narrow scope covered in the course, shallow depth of content, and of course also a good dose of imposter syndrome :')</p>
 
                     <h2>Lessons Learned</h2>

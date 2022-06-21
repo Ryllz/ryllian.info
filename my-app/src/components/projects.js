@@ -79,6 +79,7 @@ class Projects extends Component {
                         <br></br>
                     </Grid>
                 </div>
+                <br></br>
                 <h2 style={{textAlign:'center'}}>Professional (WIP)</h2>
                 <hr class="short1"/>
                 <div className='project-box'>

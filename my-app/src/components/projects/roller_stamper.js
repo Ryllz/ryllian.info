@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Attributions extends Component {
+class RollerStamper extends Component {
     render() {
         return(
             <div>
-                <h1>Contact Page</h1>
+                <h1>WIP</h1>
             </div>
         )
     }
 }
 
-export default Attributions;
+export default RollerStamper;
