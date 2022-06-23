@@ -12,9 +12,14 @@ import MeadBrewing from './projects/mead_brewing';
 import LaserTurret from './projects/laser_turret';
 import ThisPage from './projects/this_page';
 
-import RollerStamper from './projects/roller_stamper';
+import DaisyWheelStamper from './projects/daisywheel_stamper';
+import M100CAM from './projects/M100_cam';
+import PartUnloader from './projects/part_unloader';
+import PlateDragga from './projects/hydraulic_systems';
+import PlateConveyor from './projects/plate_conveyor';
 
-import { Routes, Route, HashRouter } from 'react-router-dom';
+
+import { Routes, Route } from 'react-router-dom';
 
 
 const Main = () => (
@@ -31,7 +36,12 @@ const Main = () => (
         <Route path="/projects/mead_brewing" element={<MeadBrewing />}/>
         <Route path="/projects/laser_turret" element={<LaserTurret />}/>
         <Route path="/projects/this_page" element={<ThisPage />}/>
-        <Route path="/projects/roller_stamper" element={<RollerStamper />}/>
+
+        <Route path="/projects/daisywheel_stamper" element={<DaisyWheelStamper />}/>
+        <Route path="/projects/M100_cam" element={<M100CAM />}/>
+        <Route path="/projects/part_unloader" element={<PartUnloader />}/>
+        <Route path="/projects/hydraulic_systems" element={<PlateDragga />}/>
+        <Route path="/projects/plate_conveyor" element={<PlateConveyor />}/>
     </Routes>
 )
 

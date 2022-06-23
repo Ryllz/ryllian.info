@@ -154,9 +154,11 @@ class Resume extends Component {
                                     </table>
                                 <ul>
                                     <li>Responsible for all CAM programming of standard and custom CNC milling machines.</li>
-                                    <li>Design of industrial CNC plasma cutting platforms and auxiliary processing and motion systems.</li>
-                                    <li>Design of hydraulic and pneumatic sub-systems.</li>
                                     <li>Responsible for the continuous improvement of CAM processes.</li>
+                                    <li>Design of industrial CNC plasma cutting platforms, and post-processing modules and motion systems.</li>
+                                    <li>Design of hydraulic and pneumatic sub-systems.</li>
+                                    <li>Design of AGV for pick and placing/palletizing of processed parts up to 750kg.</li>
+                                    <li>Automation of engineering admin processes using C#, especially with regards to end-user manual generation.</li>
                                     <li>Creation of CAD assistant plug-ins in C# for streamlining SolidWorks PDM and manufacturing drawing workflow management.</li>
                                 </ul>
                                 </CardText>
@@ -175,7 +177,8 @@ class Resume extends Component {
                                     </table>
                                     <ul>
                                         <li>Design of machined and sheetmetal parts for various sensor products.</li>
-                                        <li>On-site installation + commissioning of prototypes, including scientific data collection and post-processing.</li>
+                                        <li>Driving production process improvements, yielding substantial quality and assembly cost improvements.</li>
+                                        <li>On-site installation + commissioning of prototypes, including scientific data collection (using LabView "language") and post-processing (MATLAB).</li>
                                         <li>Continuous improvements to MATLAB scripts to decrease statistical model generation times.</li>
                                         <li>Documentation and continuous improvement of production assembly processes.</li>
                                     </ul>

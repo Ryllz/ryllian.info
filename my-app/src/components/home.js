@@ -126,7 +126,7 @@ class Home extends Component {
                         <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
                         <CardText>
                             <h4>Impact of scale on design choices</h4>
-                            Why some design choices only work at scale.
+                            Why some design choices only work at scale
                         </CardText>
                         <CardActions border>
                         <Link to="/blog"><Button colored>Read</Button></Link>
@@ -138,7 +138,7 @@ class Home extends Component {
                         <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
                         <CardText>
                             <h4>Right to repair</h4>
-                            Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability.
+                            Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability
                         </CardText>
                         <CardActions border>
                         <Link to="/blog"><Button colored>Read</Button></Link>
@@ -150,7 +150,7 @@ class Home extends Component {
                         <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.png) center / cover no-repeat'}}></CardTitle>
                         <CardText>
                             <h4>The elegance of a simple storyline</h4>
-                            And why Square Enix sequels continue to break my childhood heart...
+                            ...and rants on why Square Enix sequels continue to miss the mark
                         </CardText>
                         <CardActions border>
                         <Link to="/blog"><Button colored>Read</Button></Link>
