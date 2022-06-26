@@ -6,7 +6,7 @@ class laser_turret extends Component {
         render() {
             return(
                 <div className="tab-content">
-                <h1>(WIP) Making fun from scraps</h1>
+                <h2>(WIP) Making fun from scraps</h2>
                     <hr/>
                     <p>During peak lockdown (I forget which one at this point), I decided to overhaul my home security system.
                         After settling on some XiaoMi cameras due to price, the feature I found lacking most was a face/human figure tracker.
@@ -23,7 +23,7 @@ class laser_turret extends Component {
                         <li><b>Arduino Uno and gShield 3-axis controller </b></li>
                         <li><b>NEMA14 stepper motors leftover from a NEMA23 upgrade for my old <Link to="/projects/cnc_wood_router">CNC router</Link></b></li>
                     </ul>
-                    <h1>Lessons Learned</h1>
+                    <h2>Lessons Learned</h2>
                     <hr/>
                     <h4>Image processing is HARD</h4>
                     
@@ -31,7 +31,7 @@ class laser_turret extends Component {
  
                     <h4>Overcoming choice paralysis</h4>
                    
-                    <h1>Build Photos</h1>
+                    <h2>Build Photos</h2>
                     <hr/>
                     <Grid className='project-photo-grid'>
                         <Cell col={4} phone={12} align='middle'>

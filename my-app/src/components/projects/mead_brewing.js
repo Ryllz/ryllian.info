@@ -5,8 +5,8 @@ class mead_brewing extends Component {
         render() {
             return(
                 <div className="tab-content">
-                    <h1>(WIP) Sweet sweet questionable alcohol</h1>
-                    
+                    <h1>(WIP) Sweet sweet (questionable) alcohol</h1>
+
                 </div>
             )
         }

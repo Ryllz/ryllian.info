@@ -5,7 +5,7 @@ class electric_bmx_bike extends Component {
         render() {
             return(
                 <div className="tab-content">
-                    <figure><h1 className='quote-title'><em>&ldquo;Just because you can, doesn&rsquo;t mean you should&rdquo; </em></h1>
+                    <figure><h2 className='quote-title'><em>&ldquo;Just because you can, doesn&rsquo;t mean you should&rdquo; </em></h2>
                     <figcaption>—Coworker, <cite>upon falling off immediately from a starting wheelie</cite></figcaption>
                     </figure>
                     <hr/>

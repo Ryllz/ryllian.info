@@ -5,7 +5,7 @@ class this_page extends Component {
         render() {
             return(
                 <div className="tab-content">
-                    <h1>Full stack dev, but not really</h1>
+                    <h2>Full stack dev, but not really</h2>
 
                     <p>I've dabbled before in graphical design and HTML/CSS, and always wanted to learn more about what's behind the scenes. </p>
                     <p>As a lot of my automation projects at Apple also started involved integration with internal web services, I took the leap and did a IBM Full Stack Cloud Development course.
@@ -16,8 +16,13 @@ class this_page extends Component {
                     <br></br>
                     <p>Despite finishing the course, I still wouldn't qualify myself as a full stack dev though (hence not listing JS, Kubernetes, Docker etc. on my skills list). <br></br>
                         This is due to a mixture of narrow scope covered in the course, shallow depth of content, and of course also a good dose of imposter syndrome :')</p>
+                    <br></br>
+                    <p>
+                    To try put some of the new knowledge to work though, I embarked on building this site out using the React.js framework for the backend/middleware and Material Design Lite (MDL) for the frontend theme. 
+                    Having used Shopify and Squarespace before, it felt good to have complete control over customisation despite the extra work required to setup even the most mundane things.
+                    </p>
 
-                    <h2>Lessons Learned</h2>
+                    <h3>Lessons Learned</h3>
                     <ul>
                     <li><strong>Interoperability is a nightmare</strong></li>
                     <p>Making sure all design elements are supported by common browsers (and resize correctly), is something that I think most people take for granted when visitng websites.
@@ -39,7 +44,7 @@ class this_page extends Component {
                     Nesting data objects within data objects, within an inline function, also just feels plain wrong a lot of times.
                     </ul>
 
-                    <h2>Thoughts on the IBM Course</h2>
+                    <h3>Thoughts on the IBM Course</h3>
                     <ul>
                     <li><strong>Listed as suitable for a beginners course</strong></li>
                     I personally would've struggled without prior programming experience (and a smart SWE brother I could bug for nitty gritty questions!).
@@ -49,7 +54,7 @@ class this_page extends Component {
                     Of course as with all online courses, cheating is inevitable (the exam work handed in is hosted on public github repos), but seeing it brazenly happen in the official Q&A forum without moderators stepping in was baffling.
                     </ul>
 
-                    <h2>Fancy Certificate</h2>
+                    <h3>Fancy Certificate</h3>
                     <em><b>Note</b> - I did this course early 2022, and there's since been an extra quiz and seperate Git section added.
                         Hopefully future me will get around to updating this certificate after completing the 2 new extra sections...
                     </em>

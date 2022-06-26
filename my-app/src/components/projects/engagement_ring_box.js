@@ -5,7 +5,7 @@ class engagement_ring_box extends Component {
         render() {
             return(
                 <div className="tab-content">
-                    <h1>Crash course in DFM and form vs. function</h1>
+                    <h2>Crash course in DFM and form vs. function</h2>
                     <hr/>
                     <p>For this project I took a simple task (get a box for an engagement ring) and turned it into an engineering project. </p>
                      <p>Originally, I'd given myself a week to complete the design and build - unfortunately due to breaking some long-reach tooling I'd depended on, I had to re-design on the fly with what was available.</p>
