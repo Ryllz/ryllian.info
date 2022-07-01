@@ -82,7 +82,7 @@ class Home extends Component {
             <div className='project-box'>
                 <Grid className='project-grid'>
                     <Cell col={4} phone={12} align='middle'>
-                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                        <Card shadow={0} style={{width: '100%', 'min-height': '28em', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/cnc_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                         <CardText>
                             First chapter of my journey in designing CNC platforms
@@ -93,7 +93,7 @@ class Home extends Component {
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
-                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                        <Card shadow={0} style={{width: '100%', 'min-height': '28em', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ringbox_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                         <CardText>
                             A mix of design, CAM + CNC milling, laser cutting and 3D printing
@@ -104,7 +104,7 @@ class Home extends Component {
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
-                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                        <Card shadow={0} style={{width: '100%', 'min-height': '28em', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                         <CardText>
                             Who needs suspension, brakes and gears anyways?
@@ -122,11 +122,11 @@ class Home extends Component {
             <div className='blog-box'>
                 <Grid className='project-grid'>
                     <Cell col={4} phone={12} align='middle'>
-                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
+                        <Card shadow={0} style={{width: '100%', 'min-height': '20em', margin: 'auto'}}>
+                        <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/voice_of_fire.png) center / contain no-repeat'}}></CardTitle>
                         <CardText>
-                            <h4>Impact of scale on design choices</h4>
-                            Why some design choices only work at scale
+                            <h5 style={{'margin-top': 0}}>Impact of scale on design choices</h5>
+                            Why some features only work at scale
                         </CardText>
                         <CardActions border>
                         <Link to="/blog"><Button colored>Read</Button></Link>
@@ -134,10 +134,10 @@ class Home extends Component {
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
-                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.jpg) center / cover no-repeat'}}></CardTitle>
+                        <Card shadow={0} style={{width: '100%', 'min-height': '20em', margin: 'auto'}}>
+                        <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/right_repair.jpg) center / contain no-repeat'}}></CardTitle>
                         <CardText>
-                            <h4>Right to repair</h4>
+                            <h4 style={{'margin-top': 0}}>Right to repair</h4>
                             Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability
                         </CardText>
                         <CardActions border>
@@ -146,10 +146,10 @@ class Home extends Component {
                         </Card>
                     </Cell>
                     <Cell col={4} phone={12} align='middle'>
-                        <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                        <CardTitle className='project-title-pic' expand style={{height: '10em', color: '#fff', background: 'url(/.png) center / cover no-repeat'}}></CardTitle>
+                        <Card shadow={0} style={{width: '100%', 'min-height': '20em', margin: 'auto'}}>
+                        <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mess-chaos.png) center / contain no-repeat'}}></CardTitle>
                         <CardText>
-                            <h4>The elegance of a simple storyline</h4>
+                            <h4 style={{'margin-top': 0}}>The elegance of a simple storyline</h4>
                             ...and rants on why Square Enix sequels continue to miss the mark
                         </CardText>
                         <CardActions border>

@@ -6,11 +6,11 @@ class Projects extends Component {
     render() {
         return(
             <div className="project-tabs">
-            <h2 style={{textAlign:'center'}}>Personal</h2>
+            <h2 style={{textAlign:'center'}}>Personal Projects</h2>
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/cnc_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                             <CardText>
@@ -21,7 +21,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ringbox_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                             <CardText>
@@ -32,7 +32,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                             <CardText>
@@ -43,7 +43,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/this_page.png) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
                             <CardText>
@@ -54,7 +54,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/bottle_design1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Mead Brewing (Page WIP)</h3></CardTitle>
                             <CardText>
@@ -65,22 +65,22 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/infinity_mirror1.png) center / cover no-repeat'}}><h3 class='project-title'>Disco Infinity Mirror (Page WIP)</h3></CardTitle>
                             <CardText>
-                                ...and other LED/Arduino projects
+                                ...and other LED + Arduino projects
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/laser_turret.jpg) center / cover no-repeat'}}><h3 class='project-title'>Laser Turret (Page WIP)</h3></CardTitle>
                             <CardText>
-                                Work in progress!
+                                Pew pew pew with OpenCV
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/laser_turret"><Button colored>Details</Button></Link>
@@ -91,11 +91,11 @@ class Projects extends Component {
                     </Grid>
                 </div>
                 <br></br>
-                <h2 style={{textAlign:'center'}}>Professional (Pages WIP)</h2>
+                <h2 style={{textAlign:'center'}}>Professional Projects (Pages WIP)</h2>
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/daisy_stamper1.png) center / cover no-repeat'}}><h3 class='project-title'>Roller Stamper</h3></CardTitle>
                             <CardText>
@@ -106,18 +106,18 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/hydraulic_systems.png) center / cover no-repeat'}}><h3 class='project-title'>Hydraulic System Design</h3></CardTitle>
                             <CardText>
-                                The familiarity of pneumatics, but less forgiving
+                                The familiarity of pneumatics, but much less forgiving
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/hydraulic_systems"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/plate_conveyor1.JPG) center / cover no-repeat'}}><h3 class='project-title'>Heavy Plate Conveyors</h3></CardTitle>
                             <CardText>
@@ -128,7 +128,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/m100_cover.png) center / cover no-repeat'}}><h3 class='project-title'>Container-scale Milling</h3></CardTitle>
                             <CardText>
@@ -139,7 +139,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/unloader_cover1.png) center / cover no-repeat'}}><h3 class='project-title'>Plate Unloading Robot</h3></CardTitle>
                             <CardText>
@@ -150,7 +150,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6 Axis Robot Calibration</h3></CardTitle>
                             <CardText>
@@ -161,7 +161,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} phone={12} align='middle'>
+                        <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/solidworks_csharp.png) center / cover no-repeat'}}><h3 class='project-title'>C# SolidWorks API Integration</h3></CardTitle>
                             <CardText>
