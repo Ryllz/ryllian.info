@@ -119,9 +119,9 @@ class Projects extends Component {
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/plate_conveyor1.JPG) center / cover no-repeat'}}><h3 class='project-title'>Heavy Plate Conveyors</h3></CardTitle>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/plate_conveyor1.JPG) center / cover no-repeat'}}><h3 class='project-title'>Designing for Safety</h3></CardTitle>
                             <CardText>
-                                Overcoming operator safety challenges
+                                Ensuring operator safety of heavy plate conveyors
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/plate_conveyor"><Button colored>Details</Button></Link>

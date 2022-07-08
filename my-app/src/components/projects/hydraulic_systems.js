@@ -5,6 +5,7 @@ class PlateDragga extends Component {
         return(
             <div className="tab-content">
                 <h2>High Force Grippers & Lift Platforms</h2>
+                <hr></hr>
                 <p style={{color:'red'}}><b><em>The below content is not intended to be a "review" of the K5600 machines, and is likely out of date with respect to some design aspects. 
                     <br></br>All commentary is focused solely on my own contributions and personal opinions.</em></b></p>
                 <br></br>
@@ -37,7 +38,7 @@ class PlateDragga extends Component {
                 <p>During post-processing operations such as drilling or stamping, up to a few tons of load can be applied to just one side of the cutting platform.</p>
                 <p>As the cutting platform is held up by a cylinder on each side, this uneven loading obviously isn't favourable for producing accurate results.</p>
                 <p>Before getting into this project, I vastly under-appreciated the system complexity required in heavy machinery just to lift a platform evenly...</p>
-                <img src={'/cylinder_synch.png'} width="50%" style={{'vertical-align':'middle', 'margin':'1%'}}></img>
+                <img src={'/cylinder_synch.png'} width="50%" style={{'vertical-align':'middle'}} class='inline-img'></img>
                 <p>To prevent the cutting platform on the K5600 machine from dropping even a fraction of a mm on either side, we implemented both hydraulic and mechanical means of synchronizing cylinder motion.</p>
                 <p>On the hydraulics end we used a dual vane pump style flow divider, and for the mechanical aspect it was a extremely rigid cross-shaft rack/pinion system that spans across the table.</p>
 
@@ -66,7 +67,7 @@ class PlateDragga extends Component {
                 The bend radii of the hose, as well as the fitting clearances and motion allowance, required a huge amount of attention to detail to package successfully into such a tight form factor.
                 </p>
 
-                <h3 style={{'background-color':'#A9A9A9', padding:'0.2em'}}>Other cool features & backstory</h3>
+                <h3 style={{'background-color':'#A9A9A9', padding:'0.2em'}}>Cool Features + Lessons Learned</h3>
                 <p>
                 <h4>Brass lined cutting chamber</h4>
                 <p>Plasma cutting is messy - especially the initial "pierce" as the plasma torch penetrates the plate to begin cutting. 
@@ -76,12 +77,12 @@ class PlateDragga extends Component {
                 To address this, the entire chamber is lined with a replaceable set of folded brass sheet lining; providing a relatively non-stick surface.
                 <br></br>
                 Looking inside this chamber while a plasma cut is initiated is an awesome sight to see - bursts of golden light and stream of fireworks:
-                <img src={'/k5600_cut1.png'} width="50%" style={{'vertical-align':'middle', 'margin':'1%', border:'2px solid gray'}}></img>
+                <img src={'/k5600_cut1.png'} width="50%" style={{'vertical-align':'middle'}} class='inline-img'></img>
                 </p>
-                <h4>Lesson learned in always checking center of mass</h4>
+                <h4>Always always check the center of mass</h4>
                 One of my responsiblities towards the conclusion of a project is to provide the container layout schematics on how to pack an entire disassembled machine into 40ft/20ft shipping containers.
                 <br></br>
-                For this machine, due to the gantry leg/column design being shortened we found that with all the tooling attached it was very determined to tip over left un-bolted to the floor.
+                For this machine, due to the gantry leg/column design being shortened we found it was very determined to tip over left un-bolted to the floor (due to all the front-heavy tooling axis).
                 <br></br>
                 There was numerous measures put in to address the safety aspect (shipping braces, custom lifting frame, placards/stickers indicating critical bolts etc.) - but nonetheless it was a major learning moment for me that I should've anticipated this during the concept design stage.
                 <h4>Hardened steel exterior wear plates</h4>
@@ -93,8 +94,7 @@ class PlateDragga extends Component {
                 Despite the perfect recipe for extreme tool wear and vibrations, which was a major achievement to overcome in order to achieve the high standards seen in the final platform.
                 </p>
                 <h3 style={{'background-color':'#A9A9A9', padding:'0.2em'}}>Video</h3>
-                <iframe width="560" muted="true" height="315" src="https://www.youtube.com/embed/nOyjXuZbA7M?start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <hr></hr>
+                <iframe style={{'padding-bottom':'2em'}} width="560" muted="true" height="315" src="https://www.youtube.com/embed/nOyjXuZbA7M?start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         )
     }

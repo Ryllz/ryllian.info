@@ -334,6 +334,14 @@
   border-radius: 15px;
 }
 
+.inline-img {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #a7a7a733;
+  margin: 1%
+}
+
 .title {
   padding: 0.1vh;
   font-size: 2em;
