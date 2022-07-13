@@ -150,7 +150,7 @@ class Home extends Component {
                         <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mess-chaos.png) center / contain no-repeat'}}></CardTitle>
                         <CardText>
                             <h4 style={{'margin-top': 0}}>The elegance of a simple storyline</h4>
-                            ...and rants on why Square Enix sequels continue to miss the mark
+                            Rants on why so many beloved fictional franchises stumble
                         </CardText>
                         <CardActions border>
                         <Link to="/blog"><Button colored>Read</Button></Link>

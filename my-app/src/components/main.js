@@ -11,6 +11,7 @@ import WoodRouter from './projects/cnc_wood_router';
 import MeadBrewing from './projects/mead_brewing';
 import LaserTurret from './projects/laser_turret';
 import ThisPage from './projects/this_page';
+import InfinityMirror from './projects/infinity_mirror';
 
 import DaisyWheelStamper from './projects/daisywheel_stamper';
 import M100CAM from './projects/M100_cam';
@@ -36,6 +37,7 @@ const Main = () => (
         <Route path="/projects/mead_brewing" element={<MeadBrewing />}/>
         <Route path="/projects/laser_turret" element={<LaserTurret />}/>
         <Route path="/projects/this_page" element={<ThisPage />}/>
+        <Route path="/projects/infinity_mirror" element={<InfinityMirror />}/>
 
         <Route path="/projects/daisywheel_stamper" element={<DaisyWheelStamper />}/>
         <Route path="/projects/M100_cam" element={<M100CAM />}/>

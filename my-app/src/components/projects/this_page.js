@@ -6,8 +6,8 @@ class this_page extends Component {
             return(
                 <div className="tab-content">
                     <h2>Full stack dev, but not really</h2>
-
-                    <p>I've dabbled before in graphical design and HTML/CSS, and always wanted to learn more about what's behind the scenes. </p>
+                    <hr></hr>
+                    <p>I've dabbled before in graphics design and HTML/CSS, and always wanted to learn more about what's behind the scenes. </p>
                     <p>As a lot of my automation projects at Apple also started involved integration with internal web services, I took the leap and did a IBM Full Stack Cloud Development course.
                     </p>
                     <br></br>
@@ -23,6 +23,7 @@ class this_page extends Component {
                     </p>
 
                     <h3>Lessons Learned</h3>
+                    <hr></hr>
                     <ul>
                     <li><strong>Interoperability is a nightmare</strong></li>
                     <p>Making sure all design elements are supported by common browsers (and resize correctly), is something that I think most people take for granted when visitng websites.
@@ -45,6 +46,7 @@ class this_page extends Component {
                     </ul>
 
                     <h3>Thoughts on the IBM Course</h3>
+                    <hr></hr>
                     <ul>
                     <li><strong>Listed as suitable for a beginners course</strong></li>
                     I personally would've struggled without prior programming experience (and a smart SWE brother I could bug for nitty gritty questions!).
@@ -55,6 +57,7 @@ class this_page extends Component {
                     </ul>
 
                     <h3>Fancy Certificate</h3>
+                    <hr></hr>
                     <em><b>Note</b> - I did this course early 2022, and there's since been an extra quiz and seperate Git section added.
                         Hopefully future me will get around to updating this certificate after completing the 2 new extra sections...
                     </em>

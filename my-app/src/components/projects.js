@@ -72,13 +72,13 @@ class Projects extends Component {
                                 ...and other LED + Arduino projects
                             </CardText>
                             <CardActions border>
-                            <Link to="/projects/"><Button colored>Details</Button></Link>
+                            <Link to="/projects/infinity_mirror"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/laser_turret.jpg) center / cover no-repeat'}}><h3 class='project-title'>Laser Turret (Page WIP)</h3></CardTitle>
+                            <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/laser_turret.jpg) center / cover no-repeat'}}><h3 class='project-title'>Webcam/Laser Turret</h3></CardTitle>
                             <CardText>
                                 Pew pew pew with OpenCV
                             </CardText>
@@ -91,7 +91,7 @@ class Projects extends Component {
                     </Grid>
                 </div>
                 <br></br>
-                <h2 style={{textAlign:'center'}}>Professional Projects (Pages WIP)</h2>
+                <h2 style={{textAlign:'center'}}>Professional Projects</h2>
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
@@ -130,9 +130,9 @@ class Projects extends Component {
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/m100_cover.png) center / cover no-repeat'}}><h3 class='project-title'>Container-scale Milling</h3></CardTitle>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/m100_cover.png) center / cover no-repeat'}}><h3 class='project-title'>Workshop-scale Milling</h3></CardTitle>
                             <CardText>
-                                High stakes CAM programming on a 13.3 x 2.7 x 1.8m mill
+                                High stakes CAM programming on a 13.3m x 2.7m x 1.8m mill
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/M100_cam"><Button colored>Details</Button></Link>
@@ -143,7 +143,7 @@ class Projects extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/unloader_cover1.png) center / cover no-repeat'}}><h3 class='project-title'>Plate Unloading Robot</h3></CardTitle>
                             <CardText>
-                                Industrial low-profile system for picking and palletizing plasma cut steel parts with 5 axis of motion
+                                <b>(PAGE WIP)</b> Industrial low-profile system for picking and palletizing plasma cut steel parts with 5 axis of motion
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/part_unloader"><Button colored>Details</Button></Link>
@@ -152,9 +152,9 @@ class Projects extends Component {
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6 Axis Robot Calibration</h3></CardTitle>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6-Axis Robot Calibration</h3></CardTitle>
                             <CardText>
-                                Notes on manipulating Euler angles used in many 6-axis robot systems
+                                <b>(PAGE WIP)</b> Notes on manipulating Euler angles used in many 6-axis robot systems
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/"><Button colored>Details</Button></Link>
@@ -165,7 +165,7 @@ class Projects extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/solidworks_csharp.png) center / cover no-repeat'}}><h3 class='project-title'>C# SolidWorks API Integration</h3></CardTitle>
                             <CardText>
-                                Apps and add-ons using the SolidWorks + PDMWorks APIs
+                                <b>(PAGE WIP)</b> Apps and add-ons using the SolidWorks + PDMWorks APIs
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/"><Button colored>Details</Button></Link>
