@@ -18,6 +18,7 @@ import M100CAM from './projects/M100_cam';
 import PartUnloader from './projects/part_unloader';
 import PlateDragga from './projects/hydraulic_systems';
 import PlateConveyor from './projects/plate_conveyor';
+import CSharpSolidworks from './projects/csharp_solidworks';
 
 
 import { Routes, Route } from 'react-router-dom';
@@ -44,6 +45,7 @@ const Main = () => (
         <Route path="/projects/part_unloader" element={<PartUnloader />}/>
         <Route path="/projects/hydraulic_systems" element={<PlateDragga />}/>
         <Route path="/projects/plate_conveyor" element={<PlateConveyor />}/>
+        <Route path="/projects/csharp_solidworks" element={<CSharpSolidworks />}/>
     </Routes>
 )
 

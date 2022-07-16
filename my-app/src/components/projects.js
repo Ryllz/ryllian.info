@@ -56,7 +56,7 @@ class Projects extends Component {
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/bottle_design1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Mead Brewing (Page WIP)</h3></CardTitle>
+                            <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/bottle_design1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Mead Brewing</h3></CardTitle>
                             <CardText>
                                 The flavours of process control, repeatability and reproducibility
                             </CardText>
@@ -67,7 +67,7 @@ class Projects extends Component {
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/infinity_mirror1.png) center / cover no-repeat'}}><h3 class='project-title'>Disco Infinity Mirror (Page WIP)</h3></CardTitle>
+                            <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/infinity_mirror1.png) center / cover no-repeat'}}><h3 class='project-title'>Disco Infinity Mirror</h3></CardTitle>
                             <CardText>
                                 ...and other LED + Arduino projects
                             </CardText>
@@ -143,7 +143,7 @@ class Projects extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/unloader_cover1.png) center / cover no-repeat'}}><h3 class='project-title'>Plate Unloading Robot</h3></CardTitle>
                             <CardText>
-                                <b>(PAGE WIP)</b> Industrial low-profile system for picking and palletizing plasma cut steel parts with 5 axis of motion
+                                Industrial AGV-style platform for picking and palletizing plasma cut steel parts with 5 axis of motion
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/part_unloader"><Button colored>Details</Button></Link>
@@ -168,7 +168,7 @@ class Projects extends Component {
                                 <b>(PAGE WIP)</b> Apps and add-ons using the SolidWorks + PDMWorks APIs
                             </CardText>
                             <CardActions border>
-                            <Link to="/projects/"><Button colored>Details</Button></Link>
+                            <Link to="/projects/csharp_solidworks"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
