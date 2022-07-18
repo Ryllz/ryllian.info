@@ -97,6 +97,17 @@ class Projects extends Component {
                     <Grid className='project-grid'>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6-Axis Robot Calibration</h3></CardTitle>
+                            <CardText>
+                                <b>(PAGE WIP)</b> GUI driven Python calibration tool for reference frame calibration and manipulation using Euler angles
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={3} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/daisy_stamper1.png) center / cover no-repeat'}}><h3 class='project-title'>Roller Stamper</h3></CardTitle>
                             <CardText>
                                 Material hardness, and learnings in high force timing belt applications
@@ -152,20 +163,9 @@ class Projects extends Component {
                         </Cell>
                         <Cell col={3} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6-Axis Robot Calibration</h3></CardTitle>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/solidworks_csharp.png) center / cover no-repeat'}}><h3 class='project-title'>C++/C# SolidWorks Tools</h3></CardTitle>
                             <CardText>
-                                <b>(PAGE WIP)</b> Notes on manipulating Euler angles used in many 6-axis robot systems
-                            </CardText>
-                            <CardActions border>
-                            <Link to="/projects/"><Button colored>Details</Button></Link>
-                            </CardActions>
-                            </Card>
-                        </Cell>
-                        <Cell col={3} phone={12} align='middle'>
-                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/solidworks_csharp.png) center / cover no-repeat'}}><h3 class='project-title'>C# SolidWorks API Integration</h3></CardTitle>
-                            <CardText>
-                                <b>(PAGE WIP)</b> Apps and add-ons using the SolidWorks + PDMWorks APIs
+                                Apps and add-ons built in C#/C++ to streamline processes and reduce technical debt, using SolidWorks/PDMWorks APIs
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/csharp_solidworks"><Button colored>Details</Button></Link>
