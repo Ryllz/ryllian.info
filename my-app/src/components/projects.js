@@ -6,7 +6,8 @@ class Projects extends Component {
     render() {
         return(
             <div className="project-tabs">
-            <h2 style={{textAlign:'center'}}>Personal Projects</h2>
+            <h2 style={{textAlign:'center', 'margin-bottom':'10px'}}>Personal Projects</h2>
+            <p style={{textAlign:'center'}}><em>Small bits and pieces that have added to my engineering experience</em></p>
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
@@ -91,7 +92,8 @@ class Projects extends Component {
                     </Grid>
                 </div>
                 <br></br>
-                <h2 style={{textAlign:'center'}}>Professional Projects</h2>
+                <h2 style={{textAlign:'center', 'margin-bottom':'10px'}}>Professional Projects</h2>
+                <p style={{textAlign:'center'}}><em>...or at least, the few not covered by NDAs!</em></p>
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
@@ -102,7 +104,7 @@ class Projects extends Component {
                                 <b>(PAGE WIP)</b> GUI driven Python calibration tool for reference frame calibration and manipulation using Euler angles
                             </CardText>
                             <CardActions border>
-                            <Link to="/projects/"><Button colored>Details</Button></Link>
+                            <Link to="/projects/euler_angles"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
@@ -158,6 +160,17 @@ class Projects extends Component {
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/part_unloader"><Button colored>Details</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={3} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/tastetech1.png) center / cover no-repeat'}}><h3 class='project-title'>R&D + Production Sensor Modules</h3></CardTitle>
+                            <CardText>
+                             <b>(PAGE WIP)</b> Specifically, add-on products for agricultural produce sorting machinery
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/projects/"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>

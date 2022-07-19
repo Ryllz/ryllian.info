@@ -8,9 +8,7 @@ class cnc_wood_router extends Component {
                     <h2>Baby steps in CNC machine design</h2>
                     <hr/>
                     <p>I built this CNC mill during university, having gotten interested in CAM processes during my final year project. 
-                        It began as a simple Shapeoko build, but quickly grew into something almost 10x the original footprint size.
-                    <br></br><br></br></p>
-                    <p>The build consisted of the below key components:
+                        It began as a simple Shapeoko build, but quickly grew into something almost 10x the original footprint size. From my somewhat rusty recollection, the build consisted of the below key components:
                     </p>
                     <ul>
                         <li><b>Arduino Uno + gShield, later upgraded to a TinyG board.</b></li>
@@ -22,13 +20,14 @@ class cnc_wood_router extends Component {
                     <ul>
                     <li><b>Acoustic noise & dust</b></li>
                         Cutting MDF (the most common material I used on this machine) irritated the hell out of my family.<br></br>
-                        If I were building this again I would definitely invest in a water cooled spindle, with an enclosure and proper dust extraction.
+                        If I were building this again I would definitely invest in a water cooled spindle, with an enclosure and proper dust extraction. <br></br>
+                        At the time, I had an old vacuum cleaner hooked up to a dust cyclone firmly taped to an old protein tub.
                     <li><b>Electrical noise</b></li>
                         Weeks were spent trying to figure out why there was a huge amount of noise causing problems with the controller (limit switches triggering randomly as well as erratic motion).
-                        In my efforts to fix this, I changed high frequency line to the spindle with some very heavy duty shielded cable; and stuck ferrites, grounding straps and EMI filters everywhere.<br></br>
+                        <br></br>In my efforts to fix this, I changed high frequency line to the spindle with some very heavy duty shielded cable; and stuck ferrites, grounding straps and EMI filters everywhere.<br></br>
                         ...In the end it turned out my garage at the time just didn't have the ground wired properly.
                     <li><b>DFM</b></li>
-                        I designed a lot of parts that were beyond my hobbyist capabilities to machine/weld. There was a lot of messy grinding.
+                        I designed a lot of parts that were beyond my hobbyist capabilities to machine/weld. There was a lot of messy grinding and touch up paint.
                     <li><b>Big picture cost/benefit analysis</b></li>
                         A big mistake during the design of the frame was attempting to cut cost by using very lightweight extrusion (shipping cost to NZ is hellishly expensive). <br></br>
                         However, this ended up costing more (in materials and time) to rectify with steel bracing profiles and angle supports.
@@ -95,7 +94,7 @@ class cnc_wood_router extends Component {
                                 <div class="mdl-card__title mdl-card--expand" style={{background: 'url(/cnc_endresults.jpg) center / cover'}} >             
                                 </div>
                                 <div class="mdl-card__actions">
-                                    <span class="card-image-caption">Wedding gift portrait engraving, ~0.7x1.0m in size (hand for scale in the corner)</span>
+                                    <span class="card-image-caption">Wedding gift portrait engraving, ~0.7x1.0m in size</span>
                                 </div>
                             </div>
                         </Cell>

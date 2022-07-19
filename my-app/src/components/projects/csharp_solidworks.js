@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class csharp_solidworks extends Component {
         render() {
             return(
-                <div className="tab-content">
+                <div className="tab-content" style={{'padding-bottom':'1em'}}>
                 <h2>Leapfrogging technical debt</h2>
                     <hr/>
                     <p>Almost every engineer I've worked with and spoken to understands the concept of technical debt - when we take shortcuts, skip processes and just generally do things which delay an inevitable reckoning.</p>

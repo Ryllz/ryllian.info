@@ -325,6 +325,7 @@
 .blog-content {
   margin: auto;
   max-width: 80%;
+  min-height: 90vh;
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(255, 255, 255, 0.5);

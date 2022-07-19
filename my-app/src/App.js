@@ -104,6 +104,7 @@ function App() {
                                     <li><a href="https://www.flaticon.com/free-icons/game-controller" title="game controller icons" style={{color: '#e8e8e8'}}>Game controller icons created by Freepik - Flaticon</a></li>
                                     <li><a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons" style={{color: '#e8e8e8'}}>C sharp icons created by Freepik - Flaticon</a></li>
                                     <li><a href="https://www.flaticon.com/free-icons/chaos" title="chaos icons" style={{color: '#e8e8e8'}}>Chaos icons created by Freepik - Flaticon</a></li>
+                                    <li><a href="https://www.flaticon.com/free-icons/repeat" title="repeat icons" style={{color: '#e8e8e8'}}>Repeat icons created by Freepik - Flaticon</a></li>
                                 </div>
                                 <br></br>
                                 <Button onClick={closeModal}><b>Click anywhere to close</b></Button>

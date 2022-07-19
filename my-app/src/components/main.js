@@ -19,7 +19,7 @@ import PartUnloader from './projects/part_unloader';
 import PlateDragga from './projects/hydraulic_systems';
 import PlateConveyor from './projects/plate_conveyor';
 import CSharpSolidworks from './projects/csharp_solidworks';
-
+import EulerAngles from './projects/euler_angles';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -46,6 +46,7 @@ const Main = () => (
         <Route path="/projects/hydraulic_systems" element={<PlateDragga />}/>
         <Route path="/projects/plate_conveyor" element={<PlateConveyor />}/>
         <Route path="/projects/csharp_solidworks" element={<CSharpSolidworks />}/>
+        <Route path="/projects/euler_angles" element={<EulerAngles />}/>
     </Routes>
 )
 

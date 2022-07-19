@@ -15,11 +15,23 @@ class Blog extends Component {
                 <div className="blog-content">
                     <Grid>
                         <Cell col={4} phone={12} align='middle'>
-                            <Card shadow={0} style={{width: '100%', 'min-height': '20em', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mess-chaos.png) center / contain no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>The elegance of a simple storyline</h4>
+                                <h4 style={{'margin-top': 0}}>(WIP) The elegance of a simple storyline</h4>
                                 Rants on why so many beloved fictional franchises stumble
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/blog"><Button colored>Read</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/repeat.png) center / contain no-repeat'}}></CardTitle>
+                            <CardText>
+                                <h4 style={{'margin-top': 0}}>(WIP) The impermanence of material goals</h4>
+                                Thoughts on my changes in perception as I get older
                             </CardText>
                             <CardActions border>
                             <Link to="/blog"><Button colored>Read</Button></Link>
@@ -35,10 +47,10 @@ class Blog extends Component {
                 <div className="blog-content">
                         <Grid>
                         <Cell col={4} phone={12} align='middle'>
-                            <Card shadow={0} style={{width: '100%', 'min-height': '30em', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/voice_of_fire.png) center / contain no-repeat'}}></CardTitle>
+                            <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/voice_of_fire.png) center / cover no-repeat'}}></CardTitle>
                             <CardText>
-                                <h5 style={{'margin-top': 0}}>Impact of scale on design choices</h5>
+                                <h5 style={{'margin-top': 0}}>(WIP) Impact of scale on design choices</h5>
                                 And my opinions how to best reflect this in functional and aesthetic features
                             </CardText>
                             <CardActions border>
@@ -47,10 +59,10 @@ class Blog extends Component {
                             </Card>
                         </Cell>
                         <Cell col={4} phone={12} align='middle'>
-                            <Card shadow={0} style={{width: '100%', 'min-height': '30em', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/right_repair.jpg) center / contain no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>Right to repair</h4>
+                                <h4 style={{'margin-top': 0}}>(WIP) Right to repair</h4>
                                 Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability
                             </CardText>
                             <CardActions border>
@@ -59,10 +71,10 @@ class Blog extends Component {
                             </Card>
                         </Cell>
                         <Cell col={4} phone={12} align='middle'>
-                            <Card shadow={0} style={{width: '100%', 'min-height': '30em', margin: 'auto'}}>
-                            <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/.jpg) center / contain no-repeat'}}></CardTitle>
+                            <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mechanic_needed.jpg) center / cover no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>The decline in workmanship</h4>
+                                <h4 style={{'margin-top': 0}}>(WIP) The decline in workmanship</h4>
                                 The seemingly impossible pursuit of finding a good mechanic
                             </CardText>
                             <CardActions border>
