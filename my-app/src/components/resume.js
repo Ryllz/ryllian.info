@@ -61,7 +61,7 @@ class Resume extends Component {
                                         <img src={'/google.png'} alt='Google' className='ico-resume-edu'></img>
                                     </Cell>
                                     <Cell col={10}>
-                                        <h4 id='cert-heading'>Google Project Management</h4>
+                                        <h4 id='cert-heading'>Google Agile Project Management</h4>
                                         <h4 id='cert-heading'>Google UX Design</h4>
                                     </Cell>
                                 </Grid>
@@ -135,7 +135,7 @@ class Resume extends Component {
                                         <li>Development of a universal device fixture ecosystem used across Powertech & HID orgs, enabling significant UX improvements for both R&D and feature verification teams.</li>
                                         <li>Implementing processes and documentation required to unify data collection processes across regional sites.</li>
                                         <li>Developed end-to-end (from hardware & software to documentation/training) toolkits for 6-axis robot calibration co-ordinate frames.</li>
-                                        <li>Management and continuous recruitment & improvement of a robotics and automation wiki/forum built on the Confluence platform.</li>
+                                        <li>Management, continuous recruitment and improvement of a robotics and automation wiki/forum built on the Confluence platform.</li>
                                         <li>Responsible for on-going feature additions plus fixture updates for over 70+ automated data collection stations spread across sites in New Zealand, USA and China.</li>
                                     </ul>
                                     </CardText>

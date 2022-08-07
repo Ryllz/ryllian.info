@@ -11,7 +11,7 @@ class Projects extends Component {
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/cnc_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>CNC Wood Router</h3></CardTitle>
                             <CardText>
@@ -22,7 +22,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ringbox_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                             <CardText>
@@ -33,7 +33,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                             <CardText>
@@ -44,7 +44,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/this_page.png) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
                             <CardText>
@@ -55,7 +55,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/bottle_design1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Mead Brewing</h3></CardTitle>
                             <CardText>
@@ -66,7 +66,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/infinity_mirror1.png) center / cover no-repeat'}}><h3 class='project-title'>Disco Infinity Mirror</h3></CardTitle>
                             <CardText>
@@ -77,7 +77,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle expand style={{height: '20em', color: '#fff', background: 'url(/laser_turret.jpg) center / cover no-repeat'}}><h3 class='project-title'>Webcam/Laser Turret</h3></CardTitle>
                             <CardText>
@@ -97,7 +97,7 @@ class Projects extends Component {
                 <hr class="short1"/>
                 <div className='project-box'>
                     <Grid className='project-grid'>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6-Axis Robot Calibration</h3></CardTitle>
                             <CardText>
@@ -108,7 +108,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/daisy_stamper1.png) center / cover no-repeat'}}><h3 class='project-title'>Roller Stamper</h3></CardTitle>
                             <CardText>
@@ -119,7 +119,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/hydraulic_systems.png) center / cover no-repeat'}}><h3 class='project-title'>Hydraulic System Design</h3></CardTitle>
                             <CardText>
@@ -130,7 +130,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/plate_conveyor1.JPG) center / cover no-repeat'}}><h3 class='project-title'>Designing for Safety</h3></CardTitle>
                             <CardText>
@@ -141,7 +141,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/m100_cover.png) center / cover no-repeat'}}><h3 class='project-title'>Workshop-scale Milling</h3></CardTitle>
                             <CardText>
@@ -152,7 +152,7 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/unloader_cover1.png) center / cover no-repeat'}}><h3 class='project-title'>Plate Unloading Robot</h3></CardTitle>
                             <CardText>
@@ -163,18 +163,18 @@ class Projects extends Component {
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/tastetech1.png) center / cover no-repeat'}}><h3 class='project-title'>R&D + Production Sensor Modules</h3></CardTitle>
                             <CardText>
                              <b>(PAGE WIP)</b> Specifically, add-on products for agricultural produce sorting machinery
                             </CardText>
                             <CardActions border>
-                            <Link to="/projects/"><Button colored>Details</Button></Link>
+                            <Link to="/projects/tastetech_sensors"><Button colored>Details</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={3} phone={12} align='middle'>
+                        <Cell col={3} tablet={4} phone={12} align='middle'>
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/solidworks_csharp.png) center / cover no-repeat'}}><h3 class='project-title'>C++/C# SolidWorks Tools</h3></CardTitle>
                             <CardText>
