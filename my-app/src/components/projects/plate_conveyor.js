@@ -18,9 +18,9 @@ class PlateConveyor extends Component {
                     </Cell>
                     </Cell>
                     <Cell col={8} phone={12}>
-                    <p>Operator safety is always a priority consideration when designing heavy machinery involving frequent interactions.</p>
-                    <p>One of the most interesting projects I'd tackled in terms of safety challenges was a relatively plain and simple conveyor for moving heavy cut plate parts.
-                        Primarily due to the following perfect storm of use case and environmental constraints:
+                    <p>Operator safety is always a priority when designing heavy machinery involving frequent interactions.</p>
+                    <p>One of the most interesting projects I'd tackled in terms of safety challenges was actually a relatively plain and simple conveyor for moving heavy cut plate parts.
+                        This was due to the following perfect storm of use case and environmental constraints:
                     </p>
                     <ul>
                         <li><b>No control over part size and geometry</b></li>
@@ -38,7 +38,7 @@ class PlateConveyor extends Component {
                     <Cell col={12}>
                     <p>So how did we overcome this challenge? By following the "Elimination > Substitution > Engineering Controls > Admin. Controls > PPE" hierarchy of controls:</p>
                     <br></br>
-                    <p>First and foremost we <b>eliminated</b> any hazards we could via design; for example, the heeby-jeeby inducing picture to the left (on the in-feed side of the conveyor) in particular was safely hidden away under a brighly hazard striped cover to prevent any plausible hand insertion near that zone.</p>
+                    <p>First and foremost we <b>eliminated</b> any hazards we could via design; for example, the heeby-jeeby inducing picture to the left (on the in-feed side of the conveyor) in particular was safely guarded away under a brighly hazard striped cover to prevent any plausible hand insertion near that zone.</p>
                     <br></br>
                     <p>Next, we <b>substituted</b> any components which could cause a snag hazard, and any components which required servicing were substituted with the alternatives with longest interval options possible. 
                     For example, instead of using standard steel flat bar (which would cause even larger gaps that could entrap appendages) they were substituted with profile cut bars of flush fit size. Bearing support bloks were also substituted with versions where all grease points are facing outwards and away.
@@ -48,7 +48,7 @@ class PlateConveyor extends Component {
                      We designed a "bonnet" style cover over the hazardous section with 2 E-stops integrated into it; a touch bar along the entry edge, and a switch monitored free-swinging flap at the "drop chute".
                     </p>
                     <br></br>
-                    Of course, administrative controls and PPE were implemented too - but my personal experiences in the heavy industry has bestowed upon me a healthy skepticism in relying on these controls in any capacity.
+                    Of course, administrative controls and PPE were implemented too - but my personal experiences have bestowed upon me a healthy skepticism in relying on this in any capacity.
                     </Cell>
                     </Cell>
                 </Grid>

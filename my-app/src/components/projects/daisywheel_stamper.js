@@ -4,22 +4,23 @@ class DaisyWheelStamper extends Component {
     render() {
         return(
             <div className="tab-content">
-                <h2>A rare case of University course content being applied</h2>
+                <h2>A rare case of university course content being applied</h2>
                 <hr/>
-                <p>This project was started for a client who needed a more permanent marking system than typical inkjet and percussion systems.
+                <p>This project was developed for a client who needed a more permanent marking system than typical inkjet and percussion systems.
                 <br></br>
-                Notably, it needed to stamp alphanumeric codes into very hard grades of steel (with also a last minute request to try accomodate Iconel) and be able to stamp letters in any orientation.
+                <p>For me this project stands out (as given away by the title) because it was the first application of some obscure course content learned during University.</p>
+                <p>I specifically recall learning about force calculations for deforming metals in stamping, struggling and thinking: <em>"this is useless, what kind of chump still designs custom stamps from first principles"</em>. <br></br>Yet here I was a couple years out...the chump designing stamps :')</p>
+                <br></br>
+                The primary requirements of the project was to stamp alphanumeric sequences into very hard grades of steel (with also a last minute request to try accomodate Iconel) and to do so in any horizontal orientation.
                 <br></br>
                 In terms of the stamp capacity, the exact count escapes me, but I believe it was north of 30 to accomodate the english alphabet plus numerals and some punctuation/symbols.
                 </p>
                 <br></br>
-                <p>For me this project stands out as it was a rare case (as given away by the title) where I actually applied a lot of course content learned during University on calculating forces required to "flow" and deform metals. 
-                </p>
-                <p>Thus a significant amount of time was spent working with a stamp vendor on getting the reliefs and letter font/sizing perfect, as well as making sure there would be no failure (either from fatigue or stress concentrations) of the stamp mounting system within the wheel.
-                This was probably the biggest challenge of the project, and the final design hinged on a lot of small machining details and component material grades/post-processing all being 100% correct to specification.</p>
+                <p>A significant amount of time was spent working with a stamp vendor on getting the correct letter typeface and font, in order to minimise the forces required. <br></br>
+                The final design hinged on a lot of small machining details and component material grades/post-processing in order to achieve the desired specification without pre-mature stamp or tool failure due to the crazy stress concentrations involved.</p>
                 <br></br>
                 <p>
-                Lastly, it's worth highlighting that I tackled this design relatively early on in my career, and it wouldn't have been possible without the guidance and concept planning assistance from the other brilliant engineers at Kinetic! 
+                Lastly, it's worth highlighting that I tackled this design relatively early on in my career, and it wouldn't have been possible without the guidance and concept assistance from the other brilliant engineers at Kinetic! 
                 </p>
 
                 <h3>Cool features & backstory</h3>

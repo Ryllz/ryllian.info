@@ -167,7 +167,7 @@ class Projects extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/tastetech1.png) center / cover no-repeat'}}><h3 class='project-title'>R&D + Production Sensor Modules</h3></CardTitle>
                             <CardText>
-                             <b>(PAGE WIP)</b> Specifically, add-on products for agricultural produce sorting machinery
+                             Specifically, add-on systems for agricultural produce sorting machinery
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/tastetech_sensors"><Button colored>Details</Button></Link>

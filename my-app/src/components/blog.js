@@ -30,7 +30,7 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/repeat.png) center / contain no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>(WIP) The impermanence of material goals</h4>
+                                <h4 style={{'margin-top': 0}}>(WIP) Priority on materialistic goals</h4>
                                 Thoughts on my changes in perception as I get older
                             </CardText>
                             <CardActions border>

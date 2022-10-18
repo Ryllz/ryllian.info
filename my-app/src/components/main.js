@@ -49,6 +49,8 @@ const Main = () => (
         <Route path="/projects/csharp_solidworks" element={<CSharpSolidworks />}/>
         <Route path="/projects/euler_angles" element={<EulerAngles />}/>
         <Route path="/projects/tastetech_sensors" element={<TasteTech />}/>
+
+        <Route path="/blog/storylines" element={<storylines />}/>
     </Routes>
 )
 
