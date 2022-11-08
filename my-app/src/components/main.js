@@ -22,6 +22,8 @@ import CSharpSolidworks from './projects/csharp_solidworks';
 import EulerAngles from './projects/euler_angles';
 import TasteTech from './projects/tastetech_sensors';
 
+import Storylines from './blog/storylines';
+
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -50,7 +52,7 @@ const Main = () => (
         <Route path="/projects/euler_angles" element={<EulerAngles />}/>
         <Route path="/projects/tastetech_sensors" element={<TasteTech />}/>
 
-        <Route path="/blog/storylines" element={<storylines />}/>
+        <Route path="/blog/storylines" element={<Storylines />}/>
     </Routes>
 )
 

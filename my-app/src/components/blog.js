@@ -22,7 +22,7 @@ class Blog extends Component {
                                 Rants on why so many beloved fictional franchises stumble
                             </CardText>
                             <CardActions border>
-                            <Link to="/blog"><Button colored>Read</Button></Link>
+                            <Link to="/blog/storylines"><Button colored>Read</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
