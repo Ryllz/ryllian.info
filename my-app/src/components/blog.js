@@ -30,8 +30,8 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/repeat.png) center / contain no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>(WIP) Priority on materialistic goals</h4>
-                                Thoughts on my changes in perception as I get older
+                                <h4 style={{'margin-top': 0}}>(WIP) The rat race</h4>
+                                Thoughts on materialism and definitions of success
                             </CardText>
                             <CardActions border>
                             <Link to="/blog"><Button colored>Read</Button></Link>
@@ -79,6 +79,18 @@ class Blog extends Component {
                             </CardText>
                             <CardActions border>
                             <Link to="/blog"><Button colored>Read</Button></Link>
+                            </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} phone={12} align='middle'>
+                            <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
+                            <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/google_coursera.jpg) center / cover no-repeat'}}></CardTitle>
+                            <CardText>
+                                <h4 style={{'margin-top': 0}}>(WIP) Google UX design course</h4>
+                                My submitted portfolio and thoughts on the course content
+                            </CardText>
+                            <CardActions border>
+                            <Link to="/blog/google_ux_course"><Button colored>Read</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>

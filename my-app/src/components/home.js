@@ -72,7 +72,7 @@ class Home extends Component {
                     <br></br> Although my experience is primarily in the mechanical specialization, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
                     </p1>
                     <br></br>
-                    <p2><br></br>...for example, building this website to learn some basic skills in git and frontend/backend web development </p2>&#128516;
+                    <p2><br></br>...for example, building this website to learn some basic skills in git and frontend/backend web development &#128516;</p2>
                 </Cell>
             </Grid>
             </div>

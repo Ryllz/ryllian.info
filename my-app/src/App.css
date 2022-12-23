@@ -195,6 +195,10 @@
   border-color: #a7a7a733;
   box-shadow: 0px 30px 30px -30px rgba(0, 0, 0, 1);
   transition: box-shadow 0.2s ease-in-out;
+  animation: fadein 0.5s linear both;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
 }
 
 .avatar-main:hover {
@@ -268,7 +272,12 @@
   border-color: #71747e0c;
   border-radius:15px;
   text-align: center;
-  box-shadow: 0px 3px 5px -4px
+  box-shadow: 0px 3px 5px -4px;
+
+  animation: fadein 0.5s linear both;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
 }
 
 .project-box {
@@ -284,6 +293,11 @@
   border-radius: 15px;
   text-align: center;
   box-shadow: 0px 3px 5px -4px;
+
+  animation: fadein 0.5s linear both;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
 }
 
 .blog-box {
@@ -299,6 +313,11 @@
   border-radius: 15px;
   text-align: center;
   box-shadow: 0px 3px 5px -4px;
+
+  animation: fadein 0.5s linear both;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
 }
 
 .about-box {
@@ -315,6 +334,11 @@
   box-shadow: 0px 3px 5px -4px;
   justify-content: center;
   transition: box-shadow 0.2s ease-in-out;
+
+  animation: fadein 1s linear both;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s linear both; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
 }
 
 .about-box:hover {
@@ -339,6 +363,100 @@
   border-radius: 15px;
 }
 
+.fancy-title-card2 {
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 5px 15px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 2px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  margin: auto;
+  max-width: 80%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(124, 121, 121, 0.1);
+  text-align: center;
+  padding: 1em;
+  padding-bottom: 2em;
+
+  animation: fadein 2s linear both;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s linear both; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+  0% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    opacity:0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  0% {
+    transform: translateY(30px);
+    opacity:0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  0% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    opacity:0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    transform: translateY(30px);
+    opacity:0;
+  }
+  to {
+    transform: translateY(0);
+    opacity:1;
+  }
+}
+
+.fancy-title-card {
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 5px 15px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 2px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  margin: auto;
+  max-width: 80%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(124, 121, 121, 0.1);
+  text-align: center;
+  padding: 1em;
+  padding-bottom: 2em;
+  animation: fadein 1.75s;
+  -moz-animation: fadein 1.75s; /* Firefox */
+  -webkit-animation: fadein 1.75s; /* Safari and Chrome */
+  -o-animation: fadein 1.75s; /* Opera */
+}
+
 .blog-content {
   margin: auto;
   max-width: 80%;
@@ -350,6 +468,11 @@
   border-width: thin;
   border-color: #71747e36;
   border-radius: 15px;
+
+  animation: fadein 0.3s linear both;
+  -moz-animation: fadein 0.3s; /* Firefox */
+  -webkit-animation: fadein 0.3s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.3s; /* Opera */
 }
 
 .inline-img {
@@ -435,6 +558,14 @@ hr.low-margin {
   position: relative;
   overflow: hidden;
   width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.resizeable-container2 {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 

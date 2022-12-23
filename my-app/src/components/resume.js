@@ -49,20 +49,20 @@ class Resume extends Component {
                             Professional Certificates</CardTitle>
                                 <Grid style={{width: '100%'}}>
                                     <Cell col={2} hidePhone={true} style={{margin: 'auto', 'text-align': 'center', 'min-width':'2em'}}>
-                                        <img src={'/ibm.png'} alt='IBM' className='ico-resume-edu'></img>
-                                    </Cell>
-                                    <Cell col={10}>
-                                        <h4 id='cert-heading'>IBM Full Stack Cloud Developer</h4>
-                                    </Cell>
-                                    <Cell col={12}  style={{margin: '0'}}>
-                                        <hr class='low-margin'></hr>
-                                    </Cell>
-                                    <Cell col={2} hidePhone={true} style={{margin: 'auto', 'text-align': 'center', 'min-width':'2em'}}>
                                         <img src={'/google.png'} alt='Google' className='ico-resume-edu'></img>
                                     </Cell>
                                     <Cell col={10}>
                                         <h4 id='cert-heading'>Google Agile Project Management</h4>
                                         <h4 id='cert-heading'>Google UX Design</h4>
+                                    </Cell>
+                                    <Cell col={12}  style={{margin: '0'}}>
+                                        <hr class='low-margin'></hr>
+                                    </Cell>
+                                    <Cell col={2} hidePhone={true} style={{margin: 'auto', 'text-align': 'center', 'min-width':'2em'}}>
+                                        <img src={'/ibm.png'} alt='IBM' className='ico-resume-edu'></img>
+                                    </Cell>
+                                    <Cell col={10}>
+                                        <h4 id='cert-heading'>IBM Full Stack Cloud Developer</h4>
                                     </Cell>
                                 </Grid>
                             </Card>
@@ -106,7 +106,7 @@ class Resume extends Component {
                                     <tr><Chip>Python</Chip><Chip>C#</Chip><Chip>VBA</Chip><Chip>C++</Chip><Chip>MATLAB</Chip><Chip>NI LabView</Chip><Chip>HTML</Chip><Chip>CSS</Chip></tr>
                                     <hr class='low-margin'></hr>
                                     <tr><th>Productivity</th></tr>
-                                    <tr><Chip>Confluence</Chip><Chip>Adobe Photoshop</Chip><Chip>GIMP</Chip><Chip>VS Code</Chip><Chip>PyCharm</Chip></tr>
+                                    <tr><Chip>Confluence</Chip><Chip>Adobe Photoshop</Chip><Chip>GIMP</Chip><Chip>VS Code</Chip><Chip>PyCharm</Chip><Chip>Adobe XD</Chip><Chip>Figma</Chip></tr>
                                 </table>
                             </CardText>
                         </Card>
