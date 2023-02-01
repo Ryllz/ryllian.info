@@ -24,6 +24,7 @@ import TasteTech from './projects/tastetech_sensors';
 
 import Storylines from './blog/storylines';
 import GoogleUX from './blog/google_ux_course';
+import RatRace from './blog/rat_race';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -55,6 +56,7 @@ const Main = () => (
 
         <Route path="/blog/storylines" element={<Storylines />}/>
         <Route path="/blog/google_ux_course" element={<GoogleUX />}/>
+        <Route path="/blog/rat_race" element={<RatRace />}/>
     </Routes>
 )
 

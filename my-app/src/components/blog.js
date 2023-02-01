@@ -18,7 +18,7 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mess-chaos.png) center / contain no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>(WIP) The elegance of a simple storyline</h4>
+                                <h4 style={{'margin-top': 0}}>The elegance of a simple storyline</h4>
                                 Rants on why so many beloved fictional franchises stumble
                             </CardText>
                             <CardActions border>
@@ -30,11 +30,11 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/repeat.png) center / contain no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>(WIP) The rat race</h4>
-                                Thoughts on materialism and definitions of success
+                                <h4 style={{'margin-top': 0}}>The rat race</h4>
+                                Thoughts on attaining material goals and what freedom means to myself
                             </CardText>
                             <CardActions border>
-                            <Link to="/blog"><Button colored>Read</Button></Link>
+                            <Link to="/blog/rat_race"><Button colored>Read</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
@@ -75,7 +75,7 @@ class Blog extends Component {
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mechanic_needed.jpg) center / cover no-repeat'}}></CardTitle>
                             <CardText>
                                 <h4 style={{'margin-top': 0}}>(WIP) The decline in workmanship</h4>
-                                The seemingly impossible pursuit of finding a good mechanic
+                                Frustrations around finding good tradespeople
                             </CardText>
                             <CardActions border>
                             <Link to="/blog"><Button colored>Read</Button></Link>
@@ -86,7 +86,7 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/google_coursera.jpg) center / cover no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>(WIP) Google UX design course</h4>
+                                <h4 style={{'margin-top': 0}}>Google UX design course</h4>
                                 My submitted portfolio and thoughts on the course content
                             </CardText>
                             <CardActions border>

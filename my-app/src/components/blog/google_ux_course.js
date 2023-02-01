@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 
 class google_ux_course extends Component {
         render() {
             return(
                 <div>
                     <div className="fancy-title-card">          
-                        <h1>Hello there!</h1>
-                        <h5>Welcome to my portfolio for the Coursera/Google UX design course :)</h5>
-                        <p>This ad-hoc blog page hosts the 3 case study slides required as part of the final submission.</p>
-                        <p>I've always suspected I wasn't destined to be an artist, which these will likely prove &#128517;</p>
+                        <h1>Hello there</h1>
+                        <h5>Welcome to my portfolio for the Coursera/Google UX design course!</h5>
+                        <p>This ad-hoc blog page hosts the 3 case study slides required as part of the final assignment.</p>
+                        <p>...I've always suspected I wasn't destined to be an artist, as these submissions will no doubt demonstrate &#128517;</p>
                     </div>
                     <div className="fancy-title-card2">          
                         <h2>Bedazzle</h2>

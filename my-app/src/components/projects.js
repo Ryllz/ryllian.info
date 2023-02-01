@@ -101,7 +101,7 @@ class Projects extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/meca500_cover.png) center / cover no-repeat'}}><h3 class='project-title'>6-Axis Robot Calibration</h3></CardTitle>
                             <CardText>
-                                <b>(PAGE WIP)</b> GUI driven Python calibration tool for reference frame calibration and manipulation using Euler angles
+                                GUI driven Python calibration tool for reference frame calibration and manipulation using Euler angles
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/euler_angles"><Button colored>Details</Button></Link>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Button, Cell, Card, CardTitle, CardText, CardActions, IconButton, CardMenu } from 'react-mdl';
+import { Grid, Button, Cell, Card, CardTitle, CardText, CardActions } from 'react-mdl';
 import ParticlesBg from 'particles-bg';
 import { Link } from 'react-router-dom';
 
@@ -11,12 +11,12 @@ class Home extends Component {
                     <img src={'/rzselfie.png'} alt='avatar' className='avatar-main'></img>
                 </Cell>
                 <br></br>
-                <h1 className="title">Senior Hardware Engineer</h1>
+                <h1 className="title">Hardware Engineering Manager</h1>
                 <hr class="short1"/>
                 <div className='intro-box'>
                     <Grid className="skill-grid">
                         <Cell col={3} phone={12}>
-                            <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '100%', margin: 'auto', height: '100%'}}>
                                 <CardTitle style={{color: '#fff', height: '3.5em',
                                     background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(200, 80, 40, 0.8) 100%) center / cover'}}>
                                     Robotics</CardTitle>
@@ -27,7 +27,7 @@ class Home extends Component {
                             </Card>
                             </Cell>
                         <Cell col={3} phone={12}>
-                            <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '100%', margin: 'auto', height: '100%'}}>
                                 <CardTitle style={{color: '#fff', height: '3.5em', 
                                 background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(12, 60, 5, 0.7) 100%) center / cover'}}>
                                     Industrial Machinery</CardTitle>
@@ -38,7 +38,7 @@ class Home extends Component {
                             </Card>
                         </Cell>
                         <Cell col={3} phone={12}>
-                            <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '100%', margin: 'auto', height: '100%'}}>
                                 <CardTitle style={{color: '#fff', height: '3.5em', 
                                 background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(55, 59, 68, 0.9) 100%) center / cover'}}>
                                     Fixture Design</CardTitle>
@@ -49,7 +49,7 @@ class Home extends Component {
                             </Card>
                         </Cell>
                         <Cell col={3} phone={12}>
-                            <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
+                            <Card shadow={0} style={{width: '100%', margin: 'auto', height: '100%'}}>
                                 <CardTitle style={{color: '#fff', height: '3.5em', 
                                 background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(24, 90, 157, 0.9) 100%) center / cover'}}>
                                     Process Automation</CardTitle>
@@ -69,10 +69,10 @@ class Home extends Component {
                 <Cell col={12} align='middle'>
                     <div className='aboutme'></div>
                     <p1> I'm an avid learner who pursued a career in engineering to satisfy my natural curiosity in how things work.
-                    <br></br> Although my experience is primarily in the mechanical specialization, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
+                    <br></br> Although my experience is primarily in the mechanical space, I pride myself in a diverse range of interests and hobbies which add to my problem solving toolkit.
                     </p1>
                     <br></br>
-                    <p2><br></br>...for example, building this website to learn some basic skills in git and frontend/backend web development &#128516;</p2>
+                    <p2><br></br>...for example, building this website to learn some basics in git and frontend/backend web development &#128516;</p2>
                 </Cell>
             </Grid>
             </div>

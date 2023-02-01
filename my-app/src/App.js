@@ -6,7 +6,7 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import { Button } from 'react-mdl';
-
+import CircleLoader from 'react-spinners/CircleLoader';
 
 function App() {
 
@@ -26,7 +26,14 @@ function App() {
         overlay: {zIndex: 1000}
       };
 
-    // Modal.setAppElement('#');
+    const [loading, setLoading] = React.useState(false);
+
+    React.useEffect(() => {
+		setLoading(true);
+		setTimeout(() => {
+			setLoading(false);
+		}, 1200);
+	}, []);
 
     let subtitle;
     const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -67,52 +74,58 @@ function App() {
                         <Link to="/blog">Blog</Link>
                     </Navigation>
                 </Drawer>
-                <Content>
-                    <div className="page-content" />
-                    <Main/>
-                    <Footer size="mini" className="footer">
-                        <FooterSection type="left" logo="Copyright © Ryllian Zhang 2022">
-                        </FooterSection>
-                            <FooterSection type="right">
-                            <a onClick={openModal} style={{color: '#e8e8e8'}}>Attributions</a>
-                            <Modal
-                                isOpen={modalIsOpen}
-                                onAfterOpen={afterOpenModal}
-                                onRequestClose={closeModal}
-                                contentLabel="Attributions Modal"
-                                style={modalStyle}
-                            >
-                                <h3 style={{color: '#e8e8e8'}}>Thanks & credit to...</h3>
-                                <div>
-                                    <li><a href="https://www.flaticon.com/free-icons/robot-arm" title="robot arm icons" style={{color: '#e8e8e8'}}>Robot arm icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/robot" title="robot icons" style={{color: '#e8e8e8'}}>Robot icons created by Eucalyp - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/cog" title="cog icons" style={{color: '#e8e8e8'}}>Cog icons created by Pause08 - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/python" title="python icons" style={{color: '#e8e8e8'}}>Python icons created by Nadiinko - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/automation" title="automation icons" style={{color: '#e8e8e8'}}>Automation icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/microsoft" title="microsoft icons" style={{color: '#e8e8e8'}}>Microsoft icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/html" title="html icons" style={{color: '#e8e8e8'}}>Html icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/css" title="css icons" style={{color: '#e8e8e8'}}>Css icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons" style={{color: '#e8e8e8'}}>Javascript icons created by Smashicons - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/github" title="github icons" style={{color: '#e8e8e8'}}>Github icons created by riajulislam - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/print" title="print icons" style={{color: '#e8e8e8'}}>Print icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/diving" title="diving icons" style={{color: '#e8e8e8'}}>Diving icons created by istar_design_bureau - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/reading" title="reading icons" style={{color: '#e8e8e8'}}>Reading icons created by mangsaabguru - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/car" title="car icons" style={{color: '#e8e8e8'}}>Car icons created by Smashicons - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/hiking" title="hiking icons" style={{color: '#e8e8e8'}}>Hiking icons created by Smashicons - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/fishing" title="fishing icons" style={{color: '#e8e8e8'}}>Fishing icons created by wanicon - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/print" title="print icons" style={{color: '#e8e8e8'}}>Print icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/game-controller" title="game controller icons" style={{color: '#e8e8e8'}}>Game controller icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons" style={{color: '#e8e8e8'}}>C sharp icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/chaos" title="chaos icons" style={{color: '#e8e8e8'}}>Chaos icons created by Freepik - Flaticon</a></li>
-                                    <li><a href="https://www.flaticon.com/free-icons/repeat" title="repeat icons" style={{color: '#e8e8e8'}}>Repeat icons created by Freepik - Flaticon</a></li>
-                                </div>
-                                <br></br>
-                                <Button onClick={closeModal}><b>Click anywhere to close</b></Button>
-                                
-                            </Modal>
+                    <Content>
+                        {loading ? (
+                        <div className="loader-container">
+                            <CircleLoader color={'#fff'} size={100} />
+                        </div>
+                        ) : (
+                        <div className="page-content"/>
+                        )}
+                        <Main/>
+                        <Footer size="mini" className="footer">
+                            <FooterSection type="left" logo="Copyright © Ryllian Zhang 2022">
                             </FooterSection>
-                        </Footer> 
-                    </Content>
+                                <FooterSection type="right">
+                                <a onClick={openModal} style={{color: '#e8e8e8'}}>Attributions</a>
+                                <Modal
+                                    isOpen={modalIsOpen}
+                                    onAfterOpen={afterOpenModal}
+                                    onRequestClose={closeModal}
+                                    contentLabel="Attributions Modal"
+                                    style={modalStyle}
+                                >
+                                    <h3 style={{color: '#e8e8e8'}}>Thanks & credit to...</h3>
+                                    <div>
+                                        <li><a href="https://www.flaticon.com/free-icons/robot-arm" title="robot arm icons" style={{color: '#e8e8e8'}}>Robot arm icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/robot" title="robot icons" style={{color: '#e8e8e8'}}>Robot icons created by Eucalyp - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/cog" title="cog icons" style={{color: '#e8e8e8'}}>Cog icons created by Pause08 - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/python" title="python icons" style={{color: '#e8e8e8'}}>Python icons created by Nadiinko - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/automation" title="automation icons" style={{color: '#e8e8e8'}}>Automation icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/microsoft" title="microsoft icons" style={{color: '#e8e8e8'}}>Microsoft icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/html" title="html icons" style={{color: '#e8e8e8'}}>Html icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/css" title="css icons" style={{color: '#e8e8e8'}}>Css icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons" style={{color: '#e8e8e8'}}>Javascript icons created by Smashicons - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/github" title="github icons" style={{color: '#e8e8e8'}}>Github icons created by riajulislam - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/print" title="print icons" style={{color: '#e8e8e8'}}>Print icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/diving" title="diving icons" style={{color: '#e8e8e8'}}>Diving icons created by istar_design_bureau - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/reading" title="reading icons" style={{color: '#e8e8e8'}}>Reading icons created by mangsaabguru - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/car" title="car icons" style={{color: '#e8e8e8'}}>Car icons created by Smashicons - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/hiking" title="hiking icons" style={{color: '#e8e8e8'}}>Hiking icons created by Smashicons - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/fishing" title="fishing icons" style={{color: '#e8e8e8'}}>Fishing icons created by wanicon - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/print" title="print icons" style={{color: '#e8e8e8'}}>Print icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/game-controller" title="game controller icons" style={{color: '#e8e8e8'}}>Game controller icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons" style={{color: '#e8e8e8'}}>C sharp icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/chaos" title="chaos icons" style={{color: '#e8e8e8'}}>Chaos icons created by Freepik - Flaticon</a></li>
+                                        <li><a href="https://www.flaticon.com/free-icons/repeat" title="repeat icons" style={{color: '#e8e8e8'}}>Repeat icons created by Freepik - Flaticon</a></li>
+                                    </div>
+                                    <br></br>
+                                    <Button onClick={closeModal}><b>Click anywhere to close</b></Button>
+                                    
+                                </Modal>
+                                </FooterSection>
+                            </Footer> 
+                        </Content>
                 </Layout>
             </div>
         );

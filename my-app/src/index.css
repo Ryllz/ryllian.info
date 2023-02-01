@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.loader-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 9999;
+  animation: fadeinout 1s linear forwards;
+  -moz-animation: fadeinout 1s; /* Firefox */
+  -webkit-animation: fadeinout 1s linear forwards; /* Safari and Chrome */
+  -o-animation: fadeinout 1s; /* Opera */
+  opacity: 0
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}

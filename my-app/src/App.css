@@ -233,8 +233,8 @@
 
 .avatar-resume {
   display: flex;
-  min-width: 280px;
   max-width: 280px;
+  width: 100%;
   height: auto;
   margin-top: 4%;
   margin-left: auto;
@@ -249,9 +249,7 @@
 .avatar-contact {
   display: flex;
   width: 100%;
-
   height: auto;
-
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
@@ -259,8 +257,29 @@
   border-width: thin;
   border-color: #a7a7a733;
   box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 1);
+
+  transition: box-shadow 0.2s ease-in-out;
+  animation: fadein 0.5s linear both;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
 }
 
+.contact-fade {
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.2s ease-in-out;
+  animation: fadein 1s linear both;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s linear both; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+.contact-fade2 {
+  animation: fadein 0.5s linear both;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s linear both; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
+}
 
 .intro-box {
   background-color: rgba(255, 255, 255, 0.4);
