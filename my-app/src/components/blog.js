@@ -50,11 +50,11 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/voice_of_fire.png) center / cover no-repeat'}}></CardTitle>
                             <CardText>
-                                <h5 style={{'margin-top': 0}}>(WIP) Impact of scale on design choices</h5>
+                                <h5 style={{'margin-top': 0}}>Impact of scale on design choices</h5>
                                 And my opinions how to best reflect this in functional and aesthetic features
                             </CardText>
                             <CardActions border>
-                            <Link to="/blog"><Button colored>Read</Button></Link>
+                            <Link to="/blog/design_scale"><Button colored>Read</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>
@@ -74,11 +74,11 @@ class Blog extends Component {
                             <Card shadow={0} style={{width: '100%', 'min-height': '25em', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/mechanic_needed.jpg) center / cover no-repeat'}}></CardTitle>
                             <CardText>
-                                <h4 style={{'margin-top': 0}}>(WIP) The decline in workmanship</h4>
-                                Frustrations around finding good tradespeople
+                                <h4 style={{'margin-top': 0}}>The decline in pride of workmanship</h4>
+                                Frustrations around finding good mechanics and tradespeople
                             </CardText>
                             <CardActions border>
-                            <Link to="/blog"><Button colored>Read</Button></Link>
+                            <Link to="/blog/workmanship"><Button colored>Read</Button></Link>
                             </CardActions>
                             </Card>
                         </Cell>

@@ -25,6 +25,8 @@ import TasteTech from './projects/tastetech_sensors';
 import Storylines from './blog/storylines';
 import GoogleUX from './blog/google_ux_course';
 import RatRace from './blog/rat_race';
+import DesignScale from './blog/design_scale';
+import Workmanship from './blog/workmanship';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -57,6 +59,8 @@ const Main = () => (
         <Route path="/blog/storylines" element={<Storylines />}/>
         <Route path="/blog/google_ux_course" element={<GoogleUX />}/>
         <Route path="/blog/rat_race" element={<RatRace />}/>
+        <Route path="/blog/design_scale" element={<DesignScale />}/>
+        <Route path="/blog/workmanship" element={<Workmanship />}/>
     </Routes>
 )
 

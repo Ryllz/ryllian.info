@@ -95,6 +95,7 @@ class Resume extends Component {
                                 <table style={{width: '100%', 'padding-left': '1em', 'padding-right': '1em'}}>
                                     <tr><th>CAD</th></tr>
                                     <tr><Chip>SolidWorks</Chip><Chip>Siemens NX</Chip><Chip>AutoCAD LT</Chip><Chip>AutoCAD Electrical</Chip></tr>
+                                    <tr><Chip>KiCAD</Chip></tr>
                                     <hr class='low-margin'></hr>
                                     <tr><th>CAM</th></tr>
                                     <tr><Chip>edgeCAM</Chip><Chip>NX CAM</Chip><Chip>Fusion360</Chip><Chip>MasterCAM</Chip></tr>

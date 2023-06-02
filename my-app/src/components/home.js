@@ -21,7 +21,7 @@ class Home extends Component {
                                     background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(200, 80, 40, 0.8) 100%) center / cover'}}>
                                     Robotics</CardTitle>
                                 <CardText>
-                                    <p class='no-bottom-margin'>General mechatronics expertise with robotic systems and auxiliary modules.</p>
+                                    <p class='no-bottom-margin'>General mechatronics expertise with robotic systems and their auxiliary modules.</p>
                                 </CardText>
                                 <img src={'./industrial-robot.png'} alt='robot_logo' className='skill-ico'></img>
                             </Card>
@@ -30,9 +30,9 @@ class Home extends Component {
                             <Card shadow={0} style={{width: '100%', margin: 'auto', height: '100%'}}>
                                 <CardTitle style={{color: '#fff', height: '3.5em', 
                                 background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(12, 60, 5, 0.7) 100%) center / cover'}}>
-                                    Industrial Machinery</CardTitle>
+                                    Machinery Design</CardTitle>
                                 <CardText>
-                                    <p class='no-bottom-margin'>Experienced in the design of precision drilling/milling/plasma CNC platforms.</p>
+                                    <p class='no-bottom-margin'>Experienced in the design of mechanisms and precision CNC platforms.</p>
                                 </CardText>
                                 <img src={'./machinery.png'} alt='machinery_logo' className='skill-ico'></img>
                             </Card>
@@ -41,9 +41,9 @@ class Home extends Component {
                             <Card shadow={0} style={{width: '100%', margin: 'auto', height: '100%'}}>
                                 <CardTitle style={{color: '#fff', height: '3.5em', 
                                 background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(55, 59, 68, 0.9) 100%) center / cover'}}>
-                                    Fixture Design</CardTitle>
+                                    Manufacturing</CardTitle>
                                 <CardText>
-                                    <p class='no-bottom-margin'>Skilled in design of precision fixtures for use in both production & test environments.</p>
+                                    <p class='no-bottom-margin'>Skilled in DFM, and leading projects in both production & test environments.</p>
                                 </CardText>
                                 <img src={'./cogwheel.png'} alt='cogwheel_logo' className='skill-ico'></img>
                             </Card>
@@ -54,7 +54,7 @@ class Home extends Component {
                                 background: 'radial-gradient(circle, rgba(67, 206, 162, 0.6) -200%, rgba(24, 90, 157, 0.9) 100%) center / cover'}}>
                                     Process Automation</CardTitle>
                                 <CardText>
-                                    <p class='no-bottom-margin'>Driving continuous improvement across production and R&D processes.</p>
+                                    <p class='no-bottom-margin'>Driving continuous improvement across both production and R&D domains.</p>
                                 </CardText>
                                 <img src={'./automation.png'} alt='automation_logo' className='skill-ico'></img>
                             </Card>
@@ -96,7 +96,7 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', 'min-height': '28em', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ringbox_1.jpg) center / cover no-repeat'}}><h3 class='project-title'>Engagement Ring Box</h3></CardTitle>
                         <CardText>
-                            A mix of design, CAM + CNC milling, laser cutting and 3D printing
+                            A mix of CAD, CAM, CNC milling, laser cutting and 3D printing
                         </CardText>
                         <CardActions border>
                         <Link to="/projects/engagement_ring_box"><Button colored>Details</Button></Link>
@@ -107,7 +107,7 @@ class Home extends Component {
                         <Card shadow={0} style={{width: '100%', 'min-height': '28em', margin: 'auto'}}>
                         <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/ebike_1.png) center / cover no-repeat'}}><h3 class='project-title'>Electric BMX Bike</h3></CardTitle>
                         <CardText>
-                            Who needs suspension, brakes and gears anyways?
+                            Who needs suspension, brakes and more than 1 gear anyways?
                         </CardText>
                         <CardActions border>
                         <Link to="/projects/electric_bmx_bike"><Button colored>Details</Button></Link>

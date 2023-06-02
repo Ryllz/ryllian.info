@@ -48,7 +48,7 @@ class Projects extends Component {
                             <Card shadow={0} style={{width: '100%', height: '100%', margin: 'auto'}}>
                             <CardTitle className='project-title-pic' expand style={{height: '20em', color: '#fff', background: 'url(/this_page.png) center / cover no-repeat'}}><h3 class='project-title'>This Website</h3></CardTitle>
                             <CardText>
-                                Getting more familiar with web-based programming skills
+                                Getting more familiar with web oriented programming languages
                             </CardText>
                             <CardActions border>
                             <Link to="/projects/this_page"><Button colored>Details</Button></Link>
