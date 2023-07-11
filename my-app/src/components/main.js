@@ -27,6 +27,7 @@ import GoogleUX from './blog/google_ux_course';
 import RatRace from './blog/rat_race';
 import DesignScale from './blog/design_scale';
 import Workmanship from './blog/workmanship';
+import RightToRepair from './blog/right_to_repair';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -56,6 +57,7 @@ const Main = () => (
         <Route path="/projects/euler_angles" element={<EulerAngles />}/>
         <Route path="/projects/tastetech_sensors" element={<TasteTech />}/>
 
+        <Route path="/blog/right_to_repair" element={<RightToRepair />}/>
         <Route path="/blog/storylines" element={<Storylines />}/>
         <Route path="/blog/google_ux_course" element={<GoogleUX />}/>
         <Route path="/blog/rat_race" element={<RatRace />}/>

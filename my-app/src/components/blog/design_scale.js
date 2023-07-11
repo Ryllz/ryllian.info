@@ -14,9 +14,9 @@ class DesignScale extends Component {
                             <br></br>
                             <p>This could be things such as tweaking the bend configuration of a exterior sheetmetal cover - does 2x 45 degree bends look better than 1x 90 degree to justify the cost?</p>
                             <br></br>
-                            <p>Or for mechanism designs where endless tweaks can be made to the geometry type of weight saving cutouts - should I use a hex grid? circle? truss?</p>
+                            <p>Or for mechanism designs where endless tweaks can be made to the geometry of weight saving cutouts - should I use a hex grid? circle? truss?</p>
                             <br></br>
-                            <p>The thought behind this post was thus to capture a pair of photos which helped me with perspective in these kind of situations.</p>
+                            <p>The thought behind this post was to capture a pair of photos which helped me with perspective in these kind of situations.</p>
                             <p>Specifically, a reminder to focus on details that provide the most impact and be mindful of the size and scale of the design.</p>
                             <br></br>
                             <hr/>

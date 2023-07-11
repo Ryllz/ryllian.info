@@ -126,10 +126,10 @@ class Home extends Component {
                         <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/voice_of_fire.png) center / contain no-repeat'}}></CardTitle>
                         <CardText>
                             <h5 style={{'margin-top': 0}}>Impact of scale on design choices</h5>
-                            Why some features only work at scale
+                            How I come to terms on level of detail when getting too entrenched on a design
                         </CardText>
                         <CardActions border>
-                        <Link to="/blog"><Button colored>Read</Button></Link>
+                        <Link to="/blog/design_scale"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>
@@ -138,10 +138,10 @@ class Home extends Component {
                         <CardTitle className='project-title-pic' expand style={{height: '8em', color: '#fff', background: 'url(/right_repair.jpg) center / contain no-repeat'}}></CardTitle>
                         <CardText>
                             <h4 style={{'margin-top': 0}}>Right to repair</h4>
-                            Thoughts on my own experiences with repairs, and balancing product image/UX with OEM parts availability
+                            My thoughts for and against stricter right to repair laws
                         </CardText>
                         <CardActions border>
-                        <Link to="/blog"><Button colored>Read</Button></Link>
+                        <Link to="/blog/right_to_repair"><Button colored>Read</Button></Link>
                         </CardActions>
                         </Card>
                     </Cell>
